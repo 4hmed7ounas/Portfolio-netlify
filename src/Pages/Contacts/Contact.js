@@ -3,11 +3,44 @@ import { Link } from "react-router-dom";
 import "./Contact.css";
 
 export default function Contact() {
+  const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
 
+  // Uncomment and adjust the submit handler if using custom submission logic
+  // const handleSubmit = async (e) => {
+  //   e.preventDefault();
+  //   const response = await fetch("/api/submitForm", {
+  //     method: "POST",
+  //     headers: {
+  //       "Content-Type": "application/json",
+  //     },
+  //     body: JSON.stringify({ name, email, message }),
+  //   });
+
+  //   if (response.ok) {
+  //     alert("Message submitted successfully!");
+  //     setName("");
+  //     setEmail("");
+  //     setMessage("");
+  //   } else {
+  //     alert("Issues on backend. Please try again later.");
+  //     setName("");
+  //     setEmail("");
+  //     setMessage("");
+  //   }
+  // };
+
   return (
-    <div id="Contact" className="d-flex" style={{ padding: "100px 0", flexDirection: "column", alignItems: "center" }}>
+    <div
+      id="Contact"
+      className="d-flex"
+      style={{
+        padding: "100px 0",
+        flexDirection: "column",
+        alignItems: "center",
+      }}
+    >
       <div style={{ color: "#FDB51B" }}>
         <h1>
           <b>Contact me</b>
@@ -20,8 +53,21 @@ export default function Contact() {
           data-netlify="true"
           className="d-flex"
           style={{ flexDirection: "column" }}
+          // onSubmit={handleSubmit}
         >
           <input type="hidden" name="form-name" value="contact" />
+          <label style={{ color: "#F6EEE1" }} htmlFor="name">
+            Name:
+          </label>
+          <input
+            className="input-style"
+            type="text"
+            name="name"
+            id="name"
+            value={name}
+            onChange={(e) => setName(e.target.value)}
+            required
+          />
           <label style={{ color: "#F6EEE1" }} htmlFor="email">
             Email:
           </label>
@@ -55,25 +101,46 @@ export default function Contact() {
           <b>OR</b>
         </h1>
         <span>
-          Stay connected with me on social media for the latest updates and engaging conversations! Let's explore together. Find me here:
+          Stay connected with me on social media for the latest updates and
+          engaging conversations! Let's explore together. Find me here:
         </span>
         <div>
-          <Link className="contact-icons" target="_blank" to="https://github.com/4hmed7ounas">
+          <Link
+            className="contact-icons"
+            target="_blank"
+            to="https://github.com/4hmed7ounas"
+          >
             <i className="fa fa-github" aria-hidden="true"></i>
           </Link>
-          <Link className="contact-icons" target="_blank" to="https://www.linkedin.com/in/ahmed-younas-360b481a5">
+          <Link
+            className="contact-icons"
+            target="_blank"
+            to="https://www.linkedin.com/in/ahmed-younas-360b481a5"
+          >
             <i className="fa fa-linkedin" aria-hidden="true"></i>
           </Link>
           <Link className="contact-icons" to="mailto:ayds13579@gmail.com">
             <i className="fa fa-google" aria-hidden="true"></i>
           </Link>
-          <Link className="contact-icons" target="_blank" to="https://instagram.com/4hmed7ounas/">
+          <Link
+            className="contact-icons"
+            target="_blank"
+            to="https://instagram.com/4hmed7ounas/"
+          >
             <i className="fa fa-instagram" aria-hidden="true"></i>
           </Link>
-          <Link className="contact-icons" target="_blank" to="https://www.facebook.com/4hmed7ounass/">
+          <Link
+            className="contact-icons"
+            target="_blank"
+            to="https://www.facebook.com/4hmed7ounass/"
+          >
             <i className="fa fa-facebook" aria-hidden="true"></i>
           </Link>
-          <Link className="contact-icons" target="_blank" to="https://www.youtube.com/channel/UCFYpnx42kj-hp9Pn7fdg_6w">
+          <Link
+            className="contact-icons"
+            target="_blank"
+            to="https://www.youtube.com/channel/UCFYpnx42kj-hp9Pn7fdg_6w"
+          >
             <i className="fa fa-youtube" aria-hidden="true"></i>
           </Link>
         </div>

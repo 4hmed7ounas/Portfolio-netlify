@@ -1,38 +1,104 @@
-.App {
-  text-align: center;
+* {
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  background-color: #161922;
+  font-family: "Lato", sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+html{
+  scroll-behavior: smooth;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+::selection {
+  background-color: #334b35;
+  color: #cc9215;
+}
+
+.d-flex {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+.col-1 {
+  width: 8.33%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.col-2 {
+  width: 16.66%;
+}
+
+.col-3 {
+  width: 25%;
+}
+
+.col-4 {
+  width: 33.33%;
+}
+
+.col-5 {
+  width: 41.66%;
+}
+
+.col-6 {
+  width: 50%;
+}
+
+.col-7 {
+  width: 58.33%;
+}
+
+.col-8 {
+  width: 66.66%;
+}
+
+.col-9 {
+  width: 75%;
+}
+
+.col-10 {
+  width: 83.33%;
+}
+
+.col-11 {
+  width: 91.66%;
+}
+
+.col-12 {
+  width: 100%;
+}
+
+.heading {
+  color: #fdb51b;
+  font-size: 50px;
+  text-align: center;
+  font-family: "Protest Strike", sans-serif;
+}
+
+@media only screen and (max-width: 460px) {
+  .heading {
+    color: #010510;
+    font-size: 33px;
+    text-align: center;
+    font-family: "Protest Strike", sans-serif;
   }
-  to {
-    transform: rotate(360deg);
+}
+
+@media only screen and (min-width: 460px) and (max-width: 920px) {
+  .heading {
+    font-size: 50px;
   }
+}
+hr{
+  margin: 0;
+  padding: 0;
+  color: #F6EEE1;
 }

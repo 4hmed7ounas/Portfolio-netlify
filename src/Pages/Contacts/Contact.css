@@ -1,0 +1,81 @@
+.input-style {
+  margin: 10px 0px;
+  border: none;
+  border-radius: 2px;
+  padding: 5px;
+  font-size: 16px;
+}
+
+.sub-btn {
+  background-color: #fdb51b;
+  color: #f6eee1;
+  border: none;
+  border-radius: 2px;
+  width: fit-content;
+  padding: 5px 10px;
+  font-size: 16px;
+  margin: 10px 5px;
+}
+
+.sub-btn:hover {
+  background-color: #cc9215;
+}
+
+.form-bg {
+  margin: 10px;
+  border-radius: 4px;
+  padding: 20px;
+  width: 40%;
+  background-color: #010510;
+}
+
+.else {
+  text-align: center;
+  padding: 10px 20px 20px 20px;
+  color: #fdb51b;
+}
+
+.else span{
+    color: #fff;
+  }
+
+.else .contact-icons {
+  font-size: 30px;
+  margin: 0 10px;
+}
+
+.else .contact-icons i {
+  padding: -10px;
+  transition: 0.5s ease-in-out;
+}
+
+.else .contact-icons i:hover {
+  box-shadow: 0.5px 0.25px 100px 0.5px #cc9215;
+  scale: 1.2;
+}
+@media only screen and (max-width: 460px) {
+  .input-style {
+    font-size: 14px;
+  }
+
+  .sub-btn {
+    font-size: 14px;
+  }
+
+  .form-bg {
+    width: 80%;
+  }
+}
+@media only screen and (min-width: 460px) and (max-width: 920px) {
+  .input-style {
+    font-size: 14px;
+  }
+
+  .sub-btn {
+    font-size: 14px;
+  }
+
+  .form-bg {
+    width: 60%;
+  }
+}

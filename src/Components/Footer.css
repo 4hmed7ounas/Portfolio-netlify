@@ -1,0 +1,26 @@
+footer {
+  padding: 20px;
+  display: flex;
+  color: #f6eee1;
+  align-items: center;
+  justify-content: space-around;
+}
+footer div {
+  margin: 5px;
+}
+
+footer h6 b {
+  color: #b04429;
+}
+
+footer .footer-icons {
+  font-size: larger;
+  margin: 0 10px;
+  color: #fdb51b;
+}
+
+@media only screen and (max-width: 650px) {
+  footer {
+    flex-direction: column;
+  }
+}

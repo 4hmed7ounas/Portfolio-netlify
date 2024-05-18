@@ -1,0 +1,13 @@
+.btn {
+  width: fit-content;
+  background-color: #fdb51b;
+  padding: 10px;
+  border-radius: 4px;
+  color: white;
+  transition: 0.5s ease-in-out;
+}
+
+.btn:hover {
+  background-color: #cc9215;
+  color: white;
+}

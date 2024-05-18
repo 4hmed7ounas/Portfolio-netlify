@@ -6,46 +6,8 @@ export default function Contact() {
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
 
-  // const handleEmailChange = (e) => {
-  //   setEmail(e.target.value);
-  // };
-
-  // const handleMessageChange = (e) => {
-  //   setMessage(e.target.value);
-  // };
-
-  // const handleSubmit = async (e) => {
-  //   e.preventDefault();
-
-  //   const response = await fetch("/api/submitForm", {
-  //     method: "POST",
-  //     headers: {
-  //       "Content-Type": "application/json",
-  //     },
-  //     body: JSON.stringify({ email, message }),
-  //   });
-
-  //   if (response.ok) {
-  //     alert("Message submitted successfully!");
-  //     setEmail("");
-  //     setMessage("");
-  //   } else {
-  //     alert("Issues on backend. Please try again later.");
-  //     setEmail("");
-  //     setMessage("");
-  //   }
-  // };
-
   return (
-    <div
-      id="Contact"
-      className="d-flex"
-      style={{
-        padding: "100px 0",
-        flexDirection: "column",
-        alignItems: "center",
-      }}
-    >
+    <div id="Contact" className="d-flex" style={{ padding: "100px 0", flexDirection: "column", alignItems: "center" }}>
       <div style={{ color: "#FDB51B" }}>
         <h1>
           <b>Contact me</b>
@@ -56,11 +18,8 @@ export default function Contact() {
           name="contact"
           method="POST"
           data-netlify="true"
-          netlify
           className="d-flex"
           style={{ flexDirection: "column" }}
-          // onSubmit={handleSubmit}
-          // onSubmit="submit"
         >
           <input type="hidden" name="form-name" value="contact" />
           <label style={{ color: "#F6EEE1" }} htmlFor="email">
@@ -96,47 +55,26 @@ export default function Contact() {
           <b>OR</b>
         </h1>
         <span>
-          Stay connected with me on social media for the latest updates and
-          engaging conversations! Let's explore together. Find me here:
+          Stay connected with me on social media for the latest updates and engaging conversations! Let's explore together. Find me here:
         </span>
         <div>
-          <Link
-            className="contact-icons"
-            target="_blank"
-            to="https://github.com/4hmed7ounas"
-          >
-            <i class="fa fa-github" aria-hidden="true"></i>
+          <Link className="contact-icons" target="_blank" to="https://github.com/4hmed7ounas">
+            <i className="fa fa-github" aria-hidden="true"></i>
           </Link>
-          <Link
-            className="contact-icons"
-            target="_blank"
-            to="https://www.linkedin.com/in/ahmed-younas-360b481a5"
-          >
-            <i class="fa fa-linkedin" aria-hidden="true"></i>
+          <Link className="contact-icons" target="_blank" to="https://www.linkedin.com/in/ahmed-younas-360b481a5">
+            <i className="fa fa-linkedin" aria-hidden="true"></i>
           </Link>
           <Link className="contact-icons" to="mailto:ayds13579@gmail.com">
-            <i class="fa fa-google" aria-hidden="true"></i>
+            <i className="fa fa-google" aria-hidden="true"></i>
           </Link>
-          <Link
-            className="contact-icons"
-            target="_blank"
-            to="https://instagram.com/4hmed7ounas/"
-          >
-            <i class="fa fa-instagram" aria-hidden="true"></i>
+          <Link className="contact-icons" target="_blank" to="https://instagram.com/4hmed7ounas/">
+            <i className="fa fa-instagram" aria-hidden="true"></i>
           </Link>
-          <Link
-            className="contact-icons"
-            target="_blank"
-            to="https://www.facebook.com/4hmed7ounass/"
-          >
-            <i class="fa fa-facebook" aria-hidden="true"></i>
+          <Link className="contact-icons" target="_blank" to="https://www.facebook.com/4hmed7ounass/">
+            <i className="fa fa-facebook" aria-hidden="true"></i>
           </Link>
-          <Link
-            className="contact-icons"
-            target="_blank"
-            to="https://www.youtube.com/channel/UCFYpnx42kj-hp9Pn7fdg_6w"
-          >
-            <i class="fa fa-youtube" aria-hidden="true"></i>
+          <Link className="contact-icons" target="_blank" to="https://www.youtube.com/channel/UCFYpnx42kj-hp9Pn7fdg_6w">
+            <i className="fa fa-youtube" aria-hidden="true"></i>
           </Link>
         </div>
       </div>

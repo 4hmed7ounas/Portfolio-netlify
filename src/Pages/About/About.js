@@ -2,6 +2,8 @@ import React, { useState, useEffect } from "react";
 import "./About.css";
 import "./Skills.css";
 import "./work.css";
+import "./GitHub.css";
+import ContributionGraph from "./GitHubContribution.js";
 import { Link } from "react-router-dom";
 
 export default function About() {
@@ -256,6 +258,23 @@ export default function About() {
                 </div>
               </div>
             </div>
+          </div>
+        </div>
+      </div>
+      <div className="github">
+        <div style={{ padding: "40px 0" }}>
+          <h2>
+            <b>GitHub Contributions</b>
+          </h2>
+          <ContributionGraph username={"4hmed7ounas"} />
+          <div className="box">
+            <span>Less</span>
+            <span className="span1"></span>
+            <span className="span2"></span>
+            <span className="span3"></span>
+            <span className="span4"></span>
+            <span className="span5"></span>
+            <span>More</span>
           </div>
         </div>
       </div>

@@ -1,70 +1,25 @@
-# Getting Started with Create React App
+# Getting Started with My Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Delighted to present my latest project: a carefully crafted portfolio designed on Figma and developed using ReactJS, with a touch of Bootstrap for some components. It's fully responsive, ensuring seamless viewing on all devices. Thanks to GitHub and Netlify, it's now live and accessible for exploration. Explore the results of my hard work.
 
-## Available Scripts
+Here you can find my portfolio: [ahmedyounas.netlify.app](https://ahmedyounas.netlify.app).
 
-In the project directory, you can run:
+![screencapture-ahmedyounas-netlify-app-2024-05-19-07_09_49](https://github.com/4hmed7ounas/Portfolio-netlify/assets/142696963/acbd2e42-af24-4381-85e3-e147c3a7e4df)
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+You can check it out and send me your response using the contact form to let me know how can I improve it so it will become more fascinating, creative, and attractive to you.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Also, I have shared the code of my work here in this repository you can also use that to make your portfolio.
 
-### `npm test`
+It will be a pleasure for me if you will use my portfolio template to build a portfolio for yourself.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Do mention me in your LinkedIn post if you use this template it will be an honor for me. [linkedIn Profile](https://www.linkedin.com/in/ahmed-younas-360b481a5)
 
-### `npm run build`
+Technologies used:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![figma](https://github.com/4hmed7ounas/Portfolio-netlify/assets/142696963/cedd517f-e188-405a-9716-c9410f4012b5)
+![react](https://github.com/4hmed7ounas/Portfolio-netlify/assets/142696963/372cd462-4d5d-4880-9612-16e7cba609d9)
+![bootstrap](https://github.com/4hmed7ounas/Portfolio-netlify/assets/142696963/32ae2b5f-4ad0-4c0b-bd9d-54b4f989b9c1)
+![js](https://github.com/4hmed7ounas/Portfolio-netlify/assets/142696963/71d1403b-11a1-4cf8-a07c-2801161e6c15)
+![css](https://github.com/4hmed7ounas/Portfolio-netlify/assets/142696963/83ff9eee-2c0f-4779-9c00-7783574ea7c4)
+![vscode](https://github.com/4hmed7ounas/Portfolio-netlify/assets/142696963/842540d3-1316-4a47-8289-7c7199a568eb)

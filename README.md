@@ -11,7 +11,7 @@ You can check it out and send me your response using the contact form to let me 
 
 Also, I have shared the code of my work here in this repository you can also use that to make your portfolio.
 
-It will be a pleasure for me if you will my portfolio template to build a portfolio for yourself.
+It will be a pleasure for me if you will use my portfolio template to build a portfolio for yourself.
 
 Do mention me in your LinkedIn post if you use this template it will be an honor for me. [linkedIn Profile](https://www.linkedin.com/in/ahmed-younas-360b481a5)
 

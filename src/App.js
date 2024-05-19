@@ -1,18 +1,31 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { useEffect } from "react";
+import { useLocation } from "react-router-dom";
 import "./App.css";
 import About from "./Pages/About/About";
 import Footer from "./Components/Footer";
 import Navbar from "./Components/Navbar";
 import Portfolio from "./Pages/Home/Portfolio";
 import Projects from "./Pages/Projects/Projects";
-import Contact from "./Pages/Contacts/Contact"
-import Extra from "./Pages/Extra/Extra"
+import Contact from "./Pages/Contacts/Contact";
+import Extra from "./Pages/Extra/Extra";
 import Resume from "./Pages/Resume/Resume";
+
+function ScrollToTop() {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+
+  return null;
+}
 
 function App() {
   return (
     <>
       <Router>
+        <ScrollToTop />
         <div>
           <Navbar title="𝔄𝔥𝔪𝔢𝔡 𝔜𝔬𝔲𝔫𝔞𝔰" />
           <Routes>

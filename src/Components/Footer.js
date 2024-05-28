@@ -34,7 +34,7 @@ export default function Footer() {
           <Link
             className="footer-icons"
             target="_blank"
-            to="https://instagram.com/4hmed7ounas/"
+            to="https://www.instagram.com/_u/4hmed7ounas/?utm_source=ig_embed&ig_rid=5062be3e-b373-4031-abdc-90b9fcd93874&ig_mid=DBE56578-126B-47C8-8FA5-0DA964B4C3FA"
           >
             <i class="fa fa-instagram" aria-hidden="true"></i>
           </Link>

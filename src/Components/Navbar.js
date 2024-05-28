@@ -83,6 +83,11 @@ function Navbar(props) {
               </Link>
             </li>
             <li className="nav-item">
+              <Link className="nav-link" to="/Activities">
+                <i class="fa fa-newspaper-o" aria-hidden="true"></i>Activities
+              </Link>
+            </li>
+            <li className="nav-item">
               <Link className="nav-link" to="/Extra">
                 <i class="fa fa-archive" aria-hidden="true"></i>Extra
               </Link>

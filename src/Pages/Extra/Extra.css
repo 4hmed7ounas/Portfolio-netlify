@@ -8,8 +8,9 @@
 }
 
 .container-cert .card-cert {
-  border-radius: 20px;
-  width: 23.5%;
+  margin: 10px 0;
+  border-radius: 15px;
+  width: 30.5%;
   padding: 10px;
   background: #011522;
   overflow: hidden;

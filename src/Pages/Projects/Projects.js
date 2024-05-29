@@ -427,10 +427,7 @@ export default function Projects() {
                     Designed (using Logic Works) and implemented (on a
                     breadboard) a 2-bit comparator using seven-segment LEDs.
                     This device can also be scaled up to compare 3-bit, 4-bit,
-                    or even more significant numbers. This device compares two
-                    2-bit binary numbers and visually indicates their
-                    relationship: whether they are equal, or if one is greater
-                    or less than the other.
+                    or even more significant numbers.
                   </p>
                   <a
                     target="_blank"

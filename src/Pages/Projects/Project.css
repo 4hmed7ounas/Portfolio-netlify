@@ -282,10 +282,11 @@
     width: 300px;
   }
   .project-container .card .content .heading {
-    font-size: 22px;
+    font-size: 12px;
   }
 
   .card .content {
+    font-size: 10px;
     padding: 10px;
   }
 }
@@ -304,11 +305,11 @@
     width: 350px;
   }
   .project-container .card .content .heading {
-    font-size: 16px;
+    font-size: 14px;
   }
 
   .card .content {
-    font-size: 14px;
+    font-size: 12px;
     padding: 20px;
   }
 }

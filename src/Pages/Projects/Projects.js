@@ -339,10 +339,9 @@ export default function Projects() {
                 <div class="content">
                   <p class="heading">Music & Movie Library</p>
                   <p>
-                    An Object Oriented Programming project that enables
-                    developers to design, implement, and interact with a robust
-                    software solution for organizing, cataloging, and managing
-                    an extensive collection of music tracks and movie titles.
+                    An OOP project that enables users to design, implement, 
+                    and interact with a robust software solution for organizing, 
+                    cataloging, and managing a collection of music and movie titles.
                   </p>
                 </div>
               </div>

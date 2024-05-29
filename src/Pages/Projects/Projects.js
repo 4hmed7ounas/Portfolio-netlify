@@ -195,6 +195,7 @@ export default function Projects() {
                 <a
                   target="_blank"
                   href="https://www.linkedin.com/posts/ahmed-younas_ai-chatbot-python-activity-7201280689973923842-ILY6?utm_source=share&utm_medium=member_desktop"
+                  rel="noreferrer"
                 >
                   Learn More
                 </a>
@@ -255,6 +256,7 @@ export default function Projects() {
                   <a
                     target="_blank"
                     href="https://4hmed7ounas.github.io/WordInfo/"
+                    rel="noreferrer"
                   >
                     Visit Page
                   </a>
@@ -433,6 +435,7 @@ export default function Projects() {
                   <a
                     target="_blank"
                     href="https://www.linkedin.com/posts/ahmed-younas_digitalelectronics-circuitdesign-innovation-activity-7200608080856788992-_jZu?utm_source=share&utm_medium=member_desktop"
+                    rel="noreferrer"
                   >
                     Learn More
                   </a>

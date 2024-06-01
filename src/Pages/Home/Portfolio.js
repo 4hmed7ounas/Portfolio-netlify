@@ -14,8 +14,8 @@ export default function Portfolio() {
           <div className="summary-content">
             <span>
               A motivated and determined individual with a strong passion for{" "}
-              <b color="#fdb51b">Web Development</b>, <b>Circuit Design</b>, and{" "}
-              <b>Artificial Intelligence</b>. Committed to using AI and Machine
+              <b color="#fdb51b">Web Development</b>, <b>Robotics</b>, and{" "}
+              <b>Artificial Intelligence</b>. Committed to using Artificial Intelligence and Machine
               Learning to solve real-world problems and make meaningful
               contributions to society. Skilled in creating dynamic web
               applications and designing efficient circuits. Always eager to

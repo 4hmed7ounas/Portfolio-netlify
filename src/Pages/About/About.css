@@ -150,6 +150,11 @@ a {
     padding: 6% 2%;
   }
 
+  .container {
+    margin-top: 20px;
+    flex-direction: column-reverse;
+  }
+
   .about-img,
   .about-content {
     width: 100%;
@@ -160,7 +165,7 @@ a {
   }
 
   .img-2 {
-    display: none;
+    display: block;
   }
 
   .heading {

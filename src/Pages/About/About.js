@@ -64,12 +64,12 @@ export default function About() {
               </div>
               <div>
                 <h3 className="summary-heading">
-                  <b>I'm based in Lahore, Pakistan</b>
+                  <b>Based in Lahore, Pakistan</b>
                 </h3>
               </div>
               <div className="summary-content">
                 <span>
-                  I'm a third-year Computer Science student at{" "}
+                  A third-year Computer Science student at{" "}
                   <a
                     target="_blank"
                     rel="noopener noreferrer"

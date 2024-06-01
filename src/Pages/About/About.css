@@ -133,6 +133,10 @@ a {
   .summary-heading {
     font-size: 30px;
   }
+
+  .about-content .summary-content {
+    text-align: left;
+  }
 }
 
 @media only screen and (min-width: 650px) and (max-width: 920px) {

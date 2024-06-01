@@ -64,7 +64,7 @@ export default function About() {
               </div>
               <div>
                 <h3 className="summary-heading">
-                  <b>I'm based in Lahore.</b>
+                  <b>I'm based in Lahore, Pakistan</b>
                 </h3>
               </div>
               <div className="summary-content">

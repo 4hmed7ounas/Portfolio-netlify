@@ -217,43 +217,63 @@ export default function About() {
               </div>
               <div>
                 <div className="single-sec">
-                  <h1 className="summary-heading">
-                    <b>Web Developer & Designer</b>
-                  </h1>
-                  <div className="summary-content">
-                    <span>Freelance | Self-Employed</span>
-                    <br />
-                    <span>2023 - Present</span>
+                  <div className="summary-details">
+                    <h1 className="summary-heading">
+                      <b>Web Developer & Designer</b>
+                    </h1>
+                    <div className="summary-content">
+                      <span>Freelance | Self-Employed</span>
+                      <br />
+                      <span>2023 - Present</span>
+                    </div>
+                  </div>
+                  <div className="summary-img">
+                    <img src="/assest/fiverr.png" alt="" />
                   </div>
                 </div>
                 <div className="single-sec">
-                  <h1 className="summary-heading">
-                    <b>Digital Circuit Designer</b>
-                  </h1>
-                  <div className="summary-content">
-                    <span>Freelance | Self-Employed</span>
-                    <br />
-                    <span>2022 - Present</span>
+                  <div className="summary-details">
+                    <h1 className="summary-heading">
+                      <b>Digital Circuit Designer</b>
+                    </h1>
+                    <div className="summary-content">
+                      <span>Freelance | Self-Employed</span>
+                      <br />
+                      <span>2022 - Present</span>
+                    </div>
+                  </div>
+                  <div className="summary-img">
+                    <img src="/assest/dldfiverr.png" alt="" />
                   </div>
                 </div>
                 <div className="single-sec">
-                  <h1 className="summary-heading">
-                    <b>Web Dev intern at CodeClause</b>
-                  </h1>
-                  <div className="summary-content">
-                    <span>Worked as a Web Development Intern</span>
-                    <br />
-                    <span>Feb 2024 - Mar 2024</span>
+                  <div className="summary-details">
+                    <h1 className="summary-heading">
+                      <b>Web Dev intern at CodeClause</b>
+                    </h1>
+                    <div className="summary-content">
+                      <span>Worked as a Web Development Intern</span>
+                      <br />
+                      <span>Aug 2023 - Sept 2023</span>
+                    </div>
+                  </div>
+                  <div className="summary-img">
+                    <img src="/assest/codeclause.png" alt="" />
                   </div>
                 </div>
                 <div className="single-sec">
-                  <h1 className="summary-heading">
-                    <b>Web Dev intern at CodSoft</b>
-                  </h1>
-                  <div className="summary-content">
-                    <span>Worked as a Web Development Intern</span>
-                    <br />
-                    <span>Aug 2023 - Sept 2023</span>
+                  <div className="summary-details">
+                    <h1 className="summary-heading">
+                      <b>Web Dev intern at CodSoft</b>
+                    </h1>
+                    <div className="summary-content">
+                      <span>Worked as a Web Development Intern</span>
+                      <br />
+                      <span>Aug 2023 - Sept 2023</span>
+                    </div>
+                  </div>
+                  <div className="summary-img">
+                    <img src="/assest/codsoft.jpg" alt="" />
                   </div>
                 </div>
               </div>

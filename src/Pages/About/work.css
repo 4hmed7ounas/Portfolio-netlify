@@ -59,14 +59,34 @@
   .work-content .summary-heading {
     font-size: 20px;
   }
+
+  .summary-img {
+    width: 100%;
+    padding: 0 5px 4px 5px;
+  }
+  
+  .summary-details {
+    width: 100%;
+  }
+
+  .work-content .single-sec {
+    flex-direction: column;
+    gap: 10px;
+  }
 }
 
-@media only screen and (min-width: 650px) and (max-width: 920px) {
+@media only screen and (min-width: 650px) and (max-width: 1000px) {
   .work-content {
     width: 100%;
   }
 
   .work-content .summary-heading {
     font-size: 25px;
+  }
+}
+
+@media only screen and (min-width: 1000px) and (max-width: 1400px) {
+  .work-content {
+    width: 70%;
   }
 }

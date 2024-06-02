@@ -92,7 +92,7 @@ export default function About() {
                   <a
                     target="_blank"
                     rel="noopener noreferrer"
-                    href="https://www.fiverr.com/ahmedyounasvlog?source=gig_page"
+                    href="https://www.fiverr.com/s/jjv68bG"
                   >
                     FIVERR
                   </a>

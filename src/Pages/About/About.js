@@ -287,15 +287,6 @@ export default function About() {
             <b>GitHub Contributions</b>
           </h2>
           <ContributionGraph username={"4hmed7ounas"} />
-          <div className="box">
-            <span>Less</span>
-            <span className="span1"></span>
-            <span className="span2"></span>
-            <span className="span3"></span>
-            <span className="span4"></span>
-            <span className="span5"></span>
-            <span>More</span>
-          </div>
         </div>
       </div>
     </div>

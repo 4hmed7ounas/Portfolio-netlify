@@ -6,8 +6,8 @@ function Github() {
   return (
     <div className="github-calendar">
       <div>
-        <h1 className="project-heading" style={{ paddingBottom: "20px" }}>
-          Days I <strong className="purple">Code</strong>
+        <h1 style={{ paddingBottom: "20px" }}>
+          Days I <strong>Code</strong>
         </h1>
       </div>
       <div>
@@ -15,7 +15,7 @@ function Github() {
           username="4hmed7ounas"
           blockSize={16}
           blockMargin={10}
-          color="#fff"
+          color="#f6eee1;"
           fontSize={16}
         />
       </div>

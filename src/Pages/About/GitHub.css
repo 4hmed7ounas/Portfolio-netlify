@@ -14,3 +14,8 @@
   flex-direction: column;
   text-align: center;
 }
+
+.styles-module_calendar__sT1ND text{
+  color: #f6eee1;
+  font-size: 14px;
+}

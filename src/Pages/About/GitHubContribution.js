@@ -4,19 +4,17 @@ import "./GitHub.css";
 
 function Github() {
   return (
-    <div className="github-calendar">
-      <div>
-        <h1 style={{ paddingBottom: "20px" }}>
+    <div className="github">
+      <div className="github-calendar-container">
+        <h1 className="github-title">
           Days I <strong>Code</strong>
         </h1>
-      </div>
-      <div>
         <GitHubCalendar
           username="4hmed7ounas"
-          blockSize={16}
-          blockMargin={10}
-          color="#f6eee1;"
-          fontSize={16}
+          blockSize={14}
+          blockMargin={9}
+          color="#f6eee1"
+          fontSize={14}
         />
       </div>
     </div>

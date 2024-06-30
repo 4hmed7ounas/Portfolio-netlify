@@ -4,18 +4,47 @@
   padding: 0px clamp(20px, 5vw, 60px);
 }
 
-.github h2 {
-  padding: 10px;
+.github-title {
+  padding-bottom: 20px;
   color: #fdb51b;
 }
 
-.github-calendar{
+.github-calendar-container {
   display: flex;
   flex-direction: column;
-  text-align: center;
+  align-items: center;
 }
 
-.styles-module_calendar__sT1ND text{
+.styles-module_calendar__sT1ND text {
   color: #f6eee1;
   font-size: 14px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .github-calendar-container {
+    padding: 20px;
+  }
+
+  .github-title {
+    font-size: 1.5em;
+  }
+
+  .styles-module_calendar__sT1ND text {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  .github-calendar-container {
+    padding: 10px;
+  }
+
+  .github-title {
+    font-size: 1.2em;
+  }
+
+  .styles-module_calendar__sT1ND text {
+    font-size: 10px;
+  }
 }

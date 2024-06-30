@@ -77,13 +77,13 @@ export default function About() {
                   >
                     FAST NUCES
                   </a>
-                  , with a strong passion for web development. With hands-on
-                  experience in HTML, CSS, JavaScript, C#, ASP.NET, MySQL,
-                  ReactJS, and NodeJS. I craft creative web applications. From
-                  dynamic front-end interfaces to powerful back-end systems, I
-                  bring ideas to life. Additionally, I've dived into
-                  Python/C/C++ programming, using these languages to build
-                  efficient and high-performance codes. Beyond my web
+                  , with a strong passion for web and mobile app development &
+                  designing. With hands-on experience in HTML, CSS, JavaScript,
+                  C#, ASP.NET, MySQL, ReactJS, and NodeJS. I craft creative web
+                  applications. From dynamic front-end interfaces to powerful
+                  back-end systems, I bring ideas to life. Additionally, I've
+                  dived into Python/C/C++ programming, using these languages to
+                  build efficient and high-performance codes. Beyond my web
                   development skills, I have a keen interest in exploring
                   diverse areas of technology. I find joy in delving into the
                   worlds of robotics and circuit analysis, and I've even taken
@@ -158,6 +158,9 @@ export default function About() {
               <img src="/assest/js.png" alt="JavaScript" />
             </li>
             <li>
+              <img src="/assest/flutter.png" alt="Cisco" />
+            </li>
+            <li>
               <img src="/assest/figma.png" alt="Figma" />
             </li>
             <li>
@@ -195,9 +198,6 @@ export default function About() {
             </li>
             <li>
               <img src="/assest/linux.png" alt="Linux" />
-            </li>
-            <li>
-              <img src="/assest/vscode.png" alt="Visual Studio Code" />
             </li>
             <li>
               <img src="/assest/cisco.png" alt="Cisco" />

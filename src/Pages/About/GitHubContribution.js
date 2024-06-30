@@ -53,7 +53,7 @@ const ContributionGraph = ({ username }) => {
   useEffect(() => {
     const getData = async () => {
       try {
-        const token = "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"; // Replace with your GitHub token
+        const token = "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"; // Replace with your GitHub token
         const contributions = await fetchContributions(username, token);
         setContributions(contributions);
       } catch (err) {

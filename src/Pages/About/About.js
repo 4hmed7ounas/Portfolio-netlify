@@ -78,7 +78,7 @@ export default function About() {
                     FAST NUCES
                   </a>
                   , with a strong passion for web and mobile app development &
-                  designing. With hands-on experience in HTML, CSS, JavaScript,
+                  designing. With hands-on experience in HTML, CSS, JavaScript, Flutter, Dart, 
                   C#, ASP.NET, MySQL, ReactJS, and NodeJS. I craft creative web
                   applications. From dynamic front-end interfaces to powerful
                   back-end systems, I bring ideas to life. Additionally, I've

@@ -158,7 +158,7 @@ export default function About() {
               <img src="/assest/js.png" alt="JavaScript" />
             </li>
             <li>
-              <img src="/assest/flutter.png" alt="Cisco" />
+              <img src="/assest/flutter.png" alt="Flutter" />
             </li>
             <li>
               <img src="/assest/figma.png" alt="Figma" />

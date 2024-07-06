@@ -2,16 +2,23 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./Footer.css";
 export default function Footer() {
+  const currentYear = new Date().getFullYear();
   return (
     <div>
       <footer>
         <div>
           <h6>
-            Made by Ahmed Younas with <b>❤</b>
+            Made by{" "}
+            <Link
+            target="_blank"
+            to="https://www.linkedin.com/in/ahmed-younas-360b481a5"
+          >
+            Ahmed Younas
+          </Link>
           </h6>
         </div>
         <div>
-          <span>Copyright © 2024</span>
+          <span>Copyright © {currentYear}</span>
         </div>
         <div>
           <Link

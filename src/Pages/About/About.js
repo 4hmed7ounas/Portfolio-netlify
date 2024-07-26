@@ -13,6 +13,7 @@ export default function About() {
     "CS Junior",
     "Free-lancer",
     "Web Developer",
+    "Flutter Developer",
     "Robotic Engineer",
     "Circuit Designer",
   ]);

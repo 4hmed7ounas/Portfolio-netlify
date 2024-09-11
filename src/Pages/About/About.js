@@ -13,6 +13,7 @@ export default function About() {
     "CS Junior",
     "Free-lancer",
     "Web Developer",
+    "Flutter Developer",
     "Robotic Engineer",
     "Circuit Designer",
   ]);
@@ -64,12 +65,12 @@ export default function About() {
               </div>
               <div>
                 <h3 className="summary-heading">
-                  <b>I'm based in Lahore.</b>
+                  <b>Based in Lahore, Pakistan</b>
                 </h3>
               </div>
               <div className="summary-content">
                 <span>
-                  I'm a third-year Computer Science student at{" "}
+                  A third-year Computer Science student at{" "}
                   <a
                     target="_blank"
                     rel="noopener noreferrer"
@@ -77,13 +78,13 @@ export default function About() {
                   >
                     FAST NUCES
                   </a>
-                  , with a strong passion for web development. With hands-on
-                  experience in HTML, CSS, JavaScript, C#, ASP.NET, MySQL,
-                  ReactJS, and NodeJS. I craft creative web applications. From
-                  dynamic front-end interfaces to powerful back-end systems, I
-                  bring ideas to life. Additionally, I've dived into
-                  Python/C/C++ programming, using these languages to build
-                  efficient and high-performance codes. Beyond my web
+                  , with a strong passion for web and mobile app development &
+                  designing. With hands-on experience in HTML, CSS, JavaScript, Flutter, Dart, 
+                  C#, ASP.NET, MySQL, ReactJS, and NodeJS. I craft creative web
+                  applications. From dynamic front-end interfaces to powerful
+                  back-end systems, I bring ideas to life. Additionally, I've
+                  dived into Python/C/C++ programming, using these languages to
+                  build efficient and high-performance codes. Beyond my web
                   development skills, I have a keen interest in exploring
                   diverse areas of technology. I find joy in delving into the
                   worlds of robotics and circuit analysis, and I've even taken
@@ -92,7 +93,7 @@ export default function About() {
                   <a
                     target="_blank"
                     rel="noopener noreferrer"
-                    href="https://www.fiverr.com/ahmedyounasvlog?source=gig_page"
+                    href="https://www.fiverr.com/s/jjv68bG"
                   >
                     FIVERR
                   </a>
@@ -158,6 +159,9 @@ export default function About() {
               <img src="/assest/js.png" alt="JavaScript" />
             </li>
             <li>
+              <img src="/assest/flutter.png" alt="Flutter" />
+            </li>
+            <li>
               <img src="/assest/figma.png" alt="Figma" />
             </li>
             <li>
@@ -197,9 +201,6 @@ export default function About() {
               <img src="/assest/linux.png" alt="Linux" />
             </li>
             <li>
-              <img src="/assest/vscode.png" alt="Visual Studio Code" />
-            </li>
-            <li>
               <img src="/assest/cisco.png" alt="Cisco" />
             </li>
           </div>
@@ -217,48 +218,76 @@ export default function About() {
               </div>
               <div>
                 <div className="single-sec">
-                  <h1 className="summary-heading">
-                    <b>Web Developer & Designer</b>
-                  </h1>
-                  <div className="summary-content">
-                    <span>Freelance | Self-Employed</span>
-                    <br />
-                    <span>2023 - Present</span>
+                  <div className="summary-details">
+                    <h1 className="summary-heading">
+                      <b>Web Developer & Designer</b>
+                    </h1>
+                    <div className="summary-content">
+                      <span>Freelance | Self-Employed</span>
+                      <br />
+                      <span>2023 - Present</span>
+                    </div>
+                  </div>
+                  <div className="summary-img">
+                    <img src="/assest/fiverr.png" alt="" />
                   </div>
                 </div>
                 <div className="single-sec">
-                  <h1 className="summary-heading">
-                    <b>Digital Circuit Designer</b>
-                  </h1>
-                  <div className="summary-content">
-                    <span>Freelance | Self-Employed</span>
-                    <br />
-                    <span>2022 - Present</span>
+                  <div className="summary-details">
+                    <h1 className="summary-heading">
+                      <b>Digital Circuit Designer</b>
+                    </h1>
+                    <div className="summary-content">
+                      <span>Freelance | Self-Employed</span>
+                      <br />
+                      <span>2022 - Present</span>
+                    </div>
+                  </div>
+                  <div className="summary-img">
+                    <img src="/assest/dldfiverr.png" alt="" />
                   </div>
                 </div>
                 <div className="single-sec">
-                  <h1 className="summary-heading">
-                    <b>Web Dev intern at CodeClause</b>
-                  </h1>
-                  <div className="summary-content">
-                    <span>Worked as a Web Development Intern</span>
-                    <br />
-                    <span>Feb 2024 - Mar 2024</span>
+                  <div className="summary-details">
+                    <h1 className="summary-heading">
+                      <b>Web Dev intern at CodeClause</b>
+                    </h1>
+                    <div className="summary-content">
+                      <span>Worked as a Web Development Intern</span>
+                      <br />
+                      <span>Aug 2023 - Sept 2023</span>
+                    </div>
+                  </div>
+                  <div className="summary-img">
+                    <img src="/assest/codeclause.png" alt="" />
                   </div>
                 </div>
                 <div className="single-sec">
-                  <h1 className="summary-heading">
-                    <b>Web Dev intern at CodSoft</b>
-                  </h1>
-                  <div className="summary-content">
-                    <span>Worked as a Web Development Intern</span>
-                    <br />
-                    <span>Aug 2023 - Sept 2023</span>
+                  <div className="summary-details">
+                    <h1 className="summary-heading">
+                      <b>Web Dev intern at CodSoft</b>
+                    </h1>
+                    <div className="summary-content">
+                      <span>Worked as a Web Development Intern</span>
+                      <br />
+                      <span>Aug 2023 - Sept 2023</span>
+                    </div>
+                  </div>
+                  <div className="summary-img">
+                    <img src="/assest/codsoft.jpg" alt="" />
                   </div>
                 </div>
               </div>
             </div>
           </div>
+        </div>
+      </div>
+      <div className="github">
+        <div style={{ padding: "40px 0" }}>
+          <h2>
+            <b>GitHub Contributions</b>
+          </h2>
+          <ContributionGraph username={"4hmed7ounas"} />
         </div>
       </div>
       <div className="github">

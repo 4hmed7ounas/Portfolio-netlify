@@ -1,0 +1,40 @@
+.activity-bg {
+  display: flex;
+  border-radius: 4px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.activity-bg iframe {
+  margin: 10px;
+  border-radius: 5px;
+  height: 450px;
+  width: 400px;
+}
+
+@media only screen and (max-width: 410px) {
+    .activity-bg iframe {
+        margin: 10px;
+        border-radius: 5px;
+        height: 200px;
+        width: 280px;
+      }
+}
+
+@media only screen and (min-width: 410px) and (max-width: 650px) {
+  .activity-bg iframe {
+      margin: 10px;
+      border-radius: 5px;
+      height: 200px;
+      width: 380px;
+    }
+}
+
+@media only screen and (min-width: 650px) and (max-width: 920px) {
+    .activity-bg iframe {
+        margin: 10px;
+        border-radius: 5px;
+        height: 200px;
+        width: 600px;
+      }
+}

@@ -39,9 +39,7 @@ export default function Extra() {
                     style={{ color: "#fff" }}
                     aria-hidden="true"
                   ></i>
-                  <div className="search-bar">
-                    Web Dev Virtual Internship
-                  </div>
+                  <div className="search-bar">Web Dev Virtual Internship</div>
                 </div>
                 <div>
                   <img src="/assest/codsoft.jpg" alt="" />
@@ -71,7 +69,57 @@ export default function Extra() {
                   </div>
                 </div>
                 <div>
-                  <img src="/assest/noimg.png" alt="" />
+                  <img src="/assest/NasCon'24.jpg" alt="" />
+                </div>
+              </div>
+              <div className="card-cert">
+                <div
+                  style={{
+                    display: "flex",
+                    justifyContent: "space-between",
+                    alignItems: "center",
+                    gap: "5px",
+                  }}
+                >
+                  <div className="circles">
+                    <div className="c"></div>
+                    <div className="c"></div>
+                    <div className="c"></div>
+                  </div>
+                  <i
+                    class="fa fa-code"
+                    style={{ color: "#fff" }}
+                    aria-hidden="true"
+                  ></i>
+                  <div className="search-bar">Basic of HTML & CSS</div>
+                </div>
+                <div>
+                  <img src="/assest/softec.jpg" alt="" />
+                </div>
+              </div>
+              <div className="card-cert">
+                <div
+                  style={{
+                    display: "flex",
+                    justifyContent: "space-between",
+                    alignItems: "center",
+                    gap: "5px",
+                  }}
+                >
+                  <div className="circles">
+                    <div className="c"></div>
+                    <div className="c"></div>
+                    <div className="c"></div>
+                  </div>
+                  <i
+                    class="fa fa-code"
+                    style={{ color: "#fff" }}
+                    aria-hidden="true"
+                  ></i>
+                  <div className="search-bar">Build a website with WordPress</div>
+                </div>
+                <div>
+                  <img src="/assest/wordpresscert.png" alt="" />
                 </div>
               </div>
               <div className="card-cert">

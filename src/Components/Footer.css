@@ -19,6 +19,13 @@ footer .footer-icons {
   color: #fdb51b;
 }
 
+
+@media only screen and (max-width: 400px) {
+  footer .footer-icons {
+    font-size: large;
+  }
+}
+
 @media only screen and (max-width: 650px) {
   footer {
     flex-direction: column;

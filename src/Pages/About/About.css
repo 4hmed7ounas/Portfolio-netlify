@@ -133,6 +133,10 @@ a {
   .summary-heading {
     font-size: 30px;
   }
+
+  .about-content .summary-content {
+    text-align: left;
+  }
 }
 
 @media only screen and (min-width: 650px) and (max-width: 920px) {
@@ -146,6 +150,11 @@ a {
     padding: 6% 2%;
   }
 
+  .container {
+    margin-top: 20px;
+    flex-direction: column-reverse;
+  }
+
   .about-img,
   .about-content {
     width: 100%;
@@ -156,7 +165,7 @@ a {
   }
 
   .img-2 {
-    display: none;
+    display: block;
   }
 
   .heading {

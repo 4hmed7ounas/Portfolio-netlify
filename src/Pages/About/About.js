@@ -345,7 +345,7 @@ export default function About() {
       <div className="github">
         <div style={{ padding: "40px 0" }}>
           <h2>
-            <b>GitHub Contributions</b>
+            <b style={{ color: "#f6eee1" }}>GitHub Contributions</b>
           </h2>
           <ContributionGraph username={"4hmed7ounas"} />
         </div>

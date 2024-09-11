@@ -85,7 +85,7 @@ export default function Projects() {
                 <div class="content">
                   <p class="heading">Amazon Clone Site</p>
                   <p>
-                    Developed a fully responsive frontend clone of Amazon Clone
+                    Developed a fully responsive frontend clone of Amazon
                     using simple reactjs, Bootstrap and js with all animation
                     and gesture.
                   </p>

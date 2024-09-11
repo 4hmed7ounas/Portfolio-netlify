@@ -1,8 +1,11 @@
 import React from "react";
-import "./Activities.css"
+import "./Activities.css";
 
 export default function Activities() {
   const iframeData = [
+    "https://www.linkedin.com/embed/feed/update/urn:li:share:7235047590227021825",
+    "https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7233512287431491585",
+    "https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7223763050707750913",
     "https://www.linkedin.com/embed/feed/update/urn:li:share:7214184382935269376",
     "https://www.linkedin.com/embed/feed/update/urn:li:share:7205997616059322368",
     "https://www.linkedin.com/embed/feed/update/urn:li:share:7201280687264452610",

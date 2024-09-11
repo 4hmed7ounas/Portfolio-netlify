@@ -20,6 +20,31 @@ export default function Extra() {
           </div>
           <div style={{ backgroundColor: "#F6EEE1" }}>
             <div className="container-cert">
+            <div className="card-cert">
+                <div
+                  style={{
+                    display: "flex",
+                    justifyContent: "space-between",
+                    alignItems: "center",
+                    gap: "5px",
+                  }}
+                >
+                  <div className="circles">
+                    <div className="c"></div>
+                    <div className="c"></div>
+                    <div className="c"></div>
+                  </div>
+                  <i
+                    class="fa fa-code"
+                    style={{ color: "#fff" }}
+                    aria-hidden="true"
+                  ></i>
+                  <div className="search-bar">Participation in Web Devathon</div>
+                </div>
+                <div>
+                  <img src="/assest/devathon24.jpg" alt="" />
+                </div>
+              </div>
               <div className="card-cert">
                 <div
                   style={{

@@ -17,7 +17,7 @@ const GitHubContribution = () => {
         />
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default GitHubContribution
+export default GitHubContribution;

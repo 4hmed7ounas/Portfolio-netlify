@@ -1,7 +1,8 @@
+import React from 'react'
 import GitHubCalendar from "react-github-calendar";
 import "./GitHub.css";
 
-function Github() {
+const GitHubContribution = () => {
   return (
     <div className="github">
       <div className="github-calendar-container">
@@ -17,7 +18,7 @@ function Github() {
         />
       </div>
     </div>
-  );
+  )
 }
 
-export default Github;
+export default GitHubContribution

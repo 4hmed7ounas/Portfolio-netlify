@@ -79,17 +79,17 @@ export default function About() {
                     FAST NUCES
                   </a>
                   , with a strong passion for web and mobile app development &
-                  designing. With hands-on experience in HTML, CSS, JavaScript, Flutter, Dart, 
-                  C#, ASP.NET, MySQL, ReactJS, and NodeJS. I craft creative web
-                  applications. From dynamic front-end interfaces to powerful
-                  back-end systems, I bring ideas to life. Additionally, I've
-                  dived into Python/C/C++ programming, using these languages to
-                  build efficient and high-performance codes. Beyond my web
-                  development skills, I have a keen interest in exploring
-                  diverse areas of technology. I find joy in delving into the
-                  worlds of robotics and circuit analysis, and I've even taken
-                  on freelance projects in electrical circuit and digital logic
-                  design on{" "}
+                  designing. With hands-on experience in HTML, CSS, JavaScript,
+                  Flutter, Dart, C#, ASP.NET, MySQL, ReactJS, and NodeJS. I
+                  craft creative web applications. From dynamic front-end
+                  interfaces to powerful back-end systems, I bring ideas to
+                  life. Additionally, I've dived into Python/C/C++ programming,
+                  using these languages to build efficient and high-performance
+                  codes. Beyond my web development skills, I have a keen
+                  interest in exploring diverse areas of technology. I find joy
+                  in delving into the worlds of robotics and circuit analysis,
+                  and I've even taken on freelance projects in electrical
+                  circuit and digital logic design on{" "}
                   <a
                     target="_blank"
                     rel="noopener noreferrer"
@@ -168,13 +168,25 @@ export default function About() {
               <img src="/assest/react.png" alt="React" />
             </li>
             <li>
+              <img src="/assest/nextjs.png" alt="Nextjs" />
+            </li>
+            <li>
+              <img src="/assest/asm.png" alt="ASM" />
+            </li>
+            <li>
               <img src="/assest/mongo.png" alt="MongoDB" />
             </li>
             <li>
               <img src="/assest/node.png" alt="Node.js" />
             </li>
             <li>
+              <img src="/assest/tailwindcss.png" alt="TailwindCSS" />
+            </li>
+            <li>
               <img src="/assest/bootstrap.png" alt="Bootstrap" />
+            </li>
+            <li>
+              <img src="/assest/github.png" alt="Github" />
             </li>
             <li>
               <img src="/assest/asp.png" alt="ASP.NET" />
@@ -184,6 +196,9 @@ export default function About() {
             </li>
             <li>
               <img src="/assest/sql.png" alt="SQL" />
+            </li>
+            <li>
+              <img src="/assest/wordpress.png" alt="WordpressS" />
             </li>
             <li>
               <img src="/assest/circuits.png" alt="Circuits" />
@@ -220,16 +235,46 @@ export default function About() {
                 <div className="single-sec">
                   <div className="summary-details">
                     <h1 className="summary-heading">
-                      <b>Web Developer & Designer</b>
+                      <b>Trainee Mobile App Developer</b>
                     </h1>
                     <div className="summary-content">
-                      <span>Freelance | Self-Employed</span>
+                      <span>Grootcore Systems</span>
                       <br />
-                      <span>2023 - Present</span>
+                      <span>Jun 2024 - Present</span>
                     </div>
                   </div>
                   <div className="summary-img">
-                    <img src="/assest/fiverr.png" alt="" />
+                    <img src="/assest/mobiletrainee.png" alt="" />
+                  </div>
+                </div>
+                <div className="single-sec">
+                  <div className="summary-details">
+                    <h1 className="summary-heading">
+                      <b>Internee Front-end Developer</b>
+                    </h1>
+                    <div className="summary-content">
+                      <span>EntraCloud</span>
+                      <br />
+                      <span>Jun 2024 - Aug 2024</span>
+                    </div>
+                  </div>
+                  <div className="summary-img">
+                    <img src="/assest/front-end.png" alt="" />
+                  </div>
+                </div>
+                <div className="single-sec">
+                  <div className="summary-details">
+                    <h1 className="summary-heading">
+                      <b>Internee Graphic Designer</b>
+                    </h1>
+                    <div className="summary-content">
+                      <span>EntraCloud</span>
+                      <br />
+                      <span>Jun 2024 - Aug 2024</span>
+                    </div>
+                  </div>
+                  <div className="summary-img">
+                    <img src="/assest/graphic-design.png" alt="" />
                   </div>
                 </div>
                 <div className="single-sec">
@@ -240,11 +285,26 @@ export default function About() {
                     <div className="summary-content">
                       <span>Freelance | Self-Employed</span>
                       <br />
-                      <span>2022 - Present</span>
+                      <span>Jan 2022 - Present</span>
                     </div>
                   </div>
                   <div className="summary-img">
                     <img src="/assest/dldfiverr.png" alt="" />
+                  </div>
+                </div>
+                <div className="single-sec">
+                  <div className="summary-details">
+                    <h1 className="summary-heading">
+                      <b>Web Developer & Designer</b>
+                    </h1>
+                    <div className="summary-content">
+                      <span>Freelance | Self-Employed</span>
+                      <br />
+                      <span>Jan 2023 - Present</span>
+                    </div>
+                  </div>
+                  <div className="summary-img">
+                    <img src="/assest/fiverr.png" alt="" />
                   </div>
                 </div>
                 <div className="single-sec">

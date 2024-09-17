@@ -5,6 +5,12 @@ import "./work.css";
 import "./GitHub.css";
 import ContributionGraph from "./GitHubContribution.js";
 import { Link } from "react-router-dom";
+import { FaCss3, FaFigma, FaGithub, FaHtml5, FaJs, FaLinux, FaNodeJs, FaPython, FaReact, FaWordpress } from "react-icons/fa";
+import { SiAssemblyscript, SiAutocad, SiBootstrap, SiCisco, SiCplusplus, SiCsharp, SiFlutter, SiMongodb, SiMysql, SiTailwindcss } from "react-icons/si";
+import { RiNextjsFill } from "react-icons/ri";
+import { DiDart, DiDotnet } from "react-icons/di";
+import { GiCircuitry } from "react-icons/gi";
+import { TiVendorMicrosoft } from "react-icons/ti";
 
 export default function About() {
   const [index] = useState(0);
@@ -144,79 +150,79 @@ export default function About() {
           </div>
           <div className="skill-container">
             <li>
-              <img src="/assest/c++.png" alt="C++" />
+            <SiCplusplus size={50} color="#F6EEE1"/>
             </li>
             <li>
-              <img src="/assest/python.png" alt="Python" />
+              <FaPython size={50} color="#F6EEE1"/>
             </li>
             <li>
-              <img src="/assest/html.png" alt="HTML" />
+              <DiDart size={50} color="#F6EEE1"/>
             </li>
             <li>
-              <img src="/assest/css.png" alt="CSS" />
+              <FaHtml5 size={50} color="#F6EEE1"/>
             </li>
             <li>
-              <img src="/assest/js.png" alt="JavaScript" />
+              <FaCss3 size={50} color="#F6EEE1"/>
             </li>
             <li>
-              <img src="/assest/flutter.png" alt="Flutter" />
+            <FaJs size={50} color="#F6EEE1"/>
             </li>
             <li>
-              <img src="/assest/figma.png" alt="Figma" />
+            <SiFlutter size={50} color="#F6EEE1"/>
             </li>
             <li>
-              <img src="/assest/react.png" alt="React" />
+            <FaFigma size={50} color="#F6EEE1"/>
             </li>
             <li>
-              <img src="/assest/nextjs.png" alt="Nextjs" />
+            <FaReact size={50} color="#F6EEE1"/>
             </li>
             <li>
-              <img src="/assest/asm.png" alt="ASM" />
+            <RiNextjsFill size={50} color="#F6EEE1"/>
             </li>
             <li>
-              <img src="/assest/mongo.png" alt="MongoDB" />
+            <SiAssemblyscript size={50} color="#F6EEE1"/>
             </li>
             <li>
-              <img src="/assest/node.png" alt="Node.js" />
+            <SiMongodb size={50} color="#F6EEE1"/>
             </li>
             <li>
-              <img src="/assest/tailwindcss.png" alt="TailwindCSS" />
+            <FaNodeJs size={50} color="#F6EEE1"/>
             </li>
             <li>
-              <img src="/assest/bootstrap.png" alt="Bootstrap" />
+            <SiTailwindcss size={50} color="#F6EEE1"/>
             </li>
             <li>
-              <img src="/assest/github.png" alt="Github" />
+            <SiBootstrap size={50} color="#F6EEE1"/>
             </li>
             <li>
-              <img src="/assest/asp.png" alt="ASP.NET" />
+            <FaGithub size={50} color="#F6EEE1"/>
             </li>
             <li>
-              <img src="/assest/csharp.png" alt="C#" />
+            <DiDotnet size={50} color="#F6EEE1"/>
             </li>
             <li>
-              <img src="/assest/sql.png" alt="SQL" />
+            <SiCsharp size={50} color="#F6EEE1"/>
             </li>
             <li>
-              <img src="/assest/wordpress.png" alt="WordpressS" />
+            <SiMysql size={50} color="#F6EEE1"/>
             </li>
             <li>
-              <img src="/assest/circuits.png" alt="Circuits" />
+            <FaWordpress size={50} color="#F6EEE1"/>
             </li>
             <li>
-              <img src="/assest/solidworks.png" alt="SolidWorks" />
+            <GiCircuitry size={50} color="#F6EEE1"/>
             </li>
             <li>
-              <img src="/assest/autocad.png" alt="AutoCAD" />
+            <SiAutocad size={50} color="#F6EEE1"/>
             </li>
             <li>
-              <img src="/assest/ms.png" alt="MS Office" />
+            <TiVendorMicrosoft size={50} color="#F6EEE1"/>
             </li>
             <li>
-              <img src="/assest/linux.png" alt="Linux" />
+            <FaLinux size={50} color="#F6EEE1"/>
             </li>
             <li>
-              <img src="/assest/cisco.png" alt="Cisco" />
+            <SiCisco size={50} color="#F6EEE1"/>
             </li>
           </div>
         </div>

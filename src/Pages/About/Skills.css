@@ -24,7 +24,7 @@
 .skill-container li:hover {
   cursor: pointer;
   border: 2px solid #7a7452;
-  scale: 1.05;
+  scale: 1.2;
 }
 
 @media only screen and (max-width: 650px) {
@@ -36,6 +36,10 @@
     margin: 10px;
     padding: 5px;
   }
+
+  .skill-container li:hover {
+    scale: 1.05;
+  }
 }
 
 @media only screen and (min-width: 650px) and (max-width: 920px) {
@@ -46,5 +50,9 @@
   .skill-container li {
     margin: 10px;
     padding: 10px;
+  }
+
+  .skill-container li:hover {
+    scale: 1.05;
   }
 }

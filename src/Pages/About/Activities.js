@@ -1,7 +1,7 @@
 import React from "react";
 import "./Activities.css";
 
-export default function Activities() {
+const Activities = () => {
   const iframeData = [
     "https://www.linkedin.com/embed/feed/update/urn:li:share:7235047590227021825",
     "https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7233512287431491585",
@@ -45,3 +45,5 @@ export default function Activities() {
     </div>
   );
 }
+
+export default Activities

@@ -1,9 +1,7 @@
-// import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
 
-function Navbar(props) {
-
+const Navbar = (props) => {
   return (
     <nav
       id="nav"

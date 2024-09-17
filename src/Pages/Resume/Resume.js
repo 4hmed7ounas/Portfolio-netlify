@@ -1,7 +1,7 @@
 import React from "react";
 import "./Resume.css";
 
-export default function Resume() {
+const Resume = () => {
   return (
     <div>
       <div>
@@ -30,4 +30,6 @@ export default function Resume() {
       </div>
     </div>
   );
-}
+};
+
+export default Resume;

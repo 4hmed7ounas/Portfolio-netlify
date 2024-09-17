@@ -1,7 +1,8 @@
+import React from "react";
 import "./Portfolio.css";
 import { Link } from "react-router-dom";
 
-export default function Portfolio() {
+const Portfolio = () => {
   return (
     <div>
       <div id="Portfolio">
@@ -41,5 +42,7 @@ export default function Portfolio() {
         </div>
       </div>
     </div>
-  );
+  )
 }
+
+export default Portfolio

@@ -1,7 +1,78 @@
 import React from "react";
 import "./Extra.css";
 
-export default function Extra() {
+const Extra = () => {
+  const certificates = [
+    {
+      title: "Participation in Web Devathon",
+      imageSrc: "/assets/devathon24.jpg",
+      iconClass: "fa fa-code",
+    },
+    {
+      title: "Web Dev Virtual Internship",
+      imageSrc: "/assets/codsoft.jpg",
+      iconClass: "fa fa-code",
+    },
+    {
+      title: "Participation in Web Marathon",
+      imageSrc: "/assets/NasCon'24.jpg",
+      iconClass: "fa fa-code",
+    },
+    {
+      title: "Basic of HTML & CSS",
+      imageSrc: "/assets/softec.jpg",
+      iconClass: "fa fa-code",
+    },
+    {
+      title: "Build a website with WordPress",
+      imageSrc: "/assets/wordpresscert.png",
+      iconClass: "fa fa-code",
+    },
+    {
+      title: "Basic of HTML & CSS",
+      imageSrc: "/assets/htmlcss.jpg",
+      iconClass: "fa fa-code",
+    },
+    {
+      title: "Basic of JavaScript Programming",
+      imageSrc: "/assets/js.jpg",
+      iconClass: "fa fa-code",
+    },
+  ];
+
+  const honorsAwards = [
+    {
+      title: "Academic Brilliance Fall 2021",
+      imageSrc: "/assets/academicfall211.jpg",
+      iconClass: "fa fa-code",
+    },
+    {
+      title: "Academic Brilliance Spring 2022",
+      imageSrc: "/assets/academicspring221.jpg",
+      iconClass: "fa fa-code",
+    },
+    {
+      title: "Academic Brilliance Fall 2022",
+      imageSrc: "/assets/academicfall221.jpg",
+      iconClass: "fa fa-code",
+    },
+    {
+      title: "Dean's list Fall 2021",
+      imageSrc: "/assets/fall21.jpg",
+      iconClass: "fa fa-code",
+    },
+    {
+      title: "Dean list Spring 2022",
+      imageSrc: "/assets/spring22.jpg",
+      iconClass: "fa fa-code",
+    },
+    {
+      title: "Dean list Fall 2022",
+      imageSrc: "/assets/fall22.jpg",
+      iconClass: "fa fa-code",
+    },
+  ];
+
   return (
     <div>
       <div id="Certificates">
@@ -20,185 +91,33 @@ export default function Extra() {
           </div>
           <div style={{ backgroundColor: "#F6EEE1" }}>
             <div className="container-cert">
-            <div className="card-cert">
-                <div
-                  style={{
-                    display: "flex",
-                    justifyContent: "space-between",
-                    alignItems: "center",
-                    gap: "5px",
-                  }}
-                >
-                  <div className="circles">
-                    <div className="c"></div>
-                    <div className="c"></div>
-                    <div className="c"></div>
+              {certificates.map((cert, index) => (
+                <div className="card-cert" key={index}>
+                  <div
+                    style={{
+                      display: "flex",
+                      justifyContent: "space-between",
+                      alignItems: "center",
+                      gap: "5px",
+                    }}
+                  >
+                    <div className="circles">
+                      <div className="c"></div>
+                      <div className="c"></div>
+                      <div className="c"></div>
+                    </div>
+                    <i
+                      className={cert.iconClass}
+                      style={{ color: "#fff" }}
+                      aria-hidden="true"
+                    ></i>
+                    <div className="search-bar">{cert.title}</div>
                   </div>
-                  <i
-                    class="fa fa-code"
-                    style={{ color: "#fff" }}
-                    aria-hidden="true"
-                  ></i>
-                  <div className="search-bar">Participation in Web Devathon</div>
-                </div>
-                <div>
-                  <img src="/assets/devathon24.jpg" alt="" />
-                </div>
-              </div>
-              <div className="card-cert">
-                <div
-                  style={{
-                    display: "flex",
-                    justifyContent: "space-between",
-                    alignItems: "center",
-                    gap: "5px",
-                  }}
-                >
-                  <div className="circles">
-                    <div className="c"></div>
-                    <div className="c"></div>
-                    <div className="c"></div>
-                  </div>
-                  <i
-                    class="fa fa-code"
-                    style={{ color: "#fff" }}
-                    aria-hidden="true"
-                  ></i>
-                  <div className="search-bar">Web Dev Virtual Internship</div>
-                </div>
-                <div>
-                  <img src="/assets/codsoft.jpg" alt="" />
-                </div>
-              </div>
-              <div className="card-cert">
-                <div
-                  style={{
-                    display: "flex",
-                    justifyContent: "space-between",
-                    alignItems: "center",
-                    gap: "5px",
-                  }}
-                >
-                  <div className="circles">
-                    <div className="c"></div>
-                    <div className="c"></div>
-                    <div className="c"></div>
-                  </div>
-                  <i
-                    class="fa fa-code"
-                    style={{ color: "#fff" }}
-                    aria-hidden="true"
-                  ></i>
-                  <div className="search-bar">
-                    Participation in Web Marathon
+                  <div>
+                    <img src={cert.imageSrc} alt={cert.title} />
                   </div>
                 </div>
-                <div>
-                  <img src="/assets/NasCon'24.jpg" alt="" />
-                </div>
-              </div>
-              <div className="card-cert">
-                <div
-                  style={{
-                    display: "flex",
-                    justifyContent: "space-between",
-                    alignItems: "center",
-                    gap: "5px",
-                  }}
-                >
-                  <div className="circles">
-                    <div className="c"></div>
-                    <div className="c"></div>
-                    <div className="c"></div>
-                  </div>
-                  <i
-                    class="fa fa-code"
-                    style={{ color: "#fff" }}
-                    aria-hidden="true"
-                  ></i>
-                  <div className="search-bar">Basic of HTML & CSS</div>
-                </div>
-                <div>
-                  <img src="/assets/softec.jpg" alt="" />
-                </div>
-              </div>
-              <div className="card-cert">
-                <div
-                  style={{
-                    display: "flex",
-                    justifyContent: "space-between",
-                    alignItems: "center",
-                    gap: "5px",
-                  }}
-                >
-                  <div className="circles">
-                    <div className="c"></div>
-                    <div className="c"></div>
-                    <div className="c"></div>
-                  </div>
-                  <i
-                    class="fa fa-code"
-                    style={{ color: "#fff" }}
-                    aria-hidden="true"
-                  ></i>
-                  <div className="search-bar">Build a website with WordPress</div>
-                </div>
-                <div>
-                  <img src="/assets/wordpresscert.png" alt="" />
-                </div>
-              </div>
-              <div className="card-cert">
-                <div
-                  style={{
-                    display: "flex",
-                    justifyContent: "space-between",
-                    alignItems: "center",
-                    gap: "5px",
-                  }}
-                >
-                  <div className="circles">
-                    <div className="c"></div>
-                    <div className="c"></div>
-                    <div className="c"></div>
-                  </div>
-                  <i
-                    class="fa fa-code"
-                    style={{ color: "#fff" }}
-                    aria-hidden="true"
-                  ></i>
-                  <div className="search-bar">Basic of HTML & CSS</div>
-                </div>
-                <div>
-                  <img src="/assets/htmlcss.jpg" alt="" />
-                </div>
-              </div>
-              <div className="card-cert">
-                <div
-                  style={{
-                    display: "flex",
-                    justifyContent: "space-between",
-                    alignItems: "center",
-                    gap: "5px",
-                  }}
-                >
-                  <div className="circles">
-                    <div className="c"></div>
-                    <div className="c"></div>
-                    <div className="c"></div>
-                  </div>
-                  <i
-                    class="fa fa-code"
-                    style={{ color: "#fff" }}
-                    aria-hidden="true"
-                  ></i>
-                  <div className="search-bar">
-                    Basic of JavaScript Programming
-                  </div>
-                </div>
-                <div>
-                  <img src="/assets/js.jpg" alt="" />
-                </div>
-              </div>
+              ))}
             </div>
           </div>
         </div>
@@ -211,161 +130,38 @@ export default function Extra() {
             </h1>
           </div>
           <div className="container-hon">
-            <div className="card-hon">
-              <div
-                style={{
-                  display: "flex",
-                  justifyContent: "space-between",
-                  alignItems: "center",
-                  gap: "5px",
-                }}
-              >
-                <div className="circles">
-                  <div className="c"></div>
-                  <div className="c"></div>
-                  <div className="c"></div>
+            {honorsAwards.map((honor, index) => (
+              <div className="card-hon" key={index}>
+                <div
+                  style={{
+                    display: "flex",
+                    justifyContent: "space-between",
+                    alignItems: "center",
+                    gap: "5px",
+                  }}
+                >
+                  <div className="circles">
+                    <div className="c"></div>
+                    <div className="c"></div>
+                    <div className="c"></div>
+                  </div>
+                  <i
+                    className={honor.iconClass}
+                    style={{ color: "black" }}
+                    aria-hidden="true"
+                  ></i>
+                  <div className="search-bar">{honor.title}</div>
                 </div>
-                <i
-                  class="fa fa-code"
-                  style={{ color: "black" }}
-                  aria-hidden="true"
-                ></i>
-                <div className="search-bar">Academic Brilliance Fall 2021</div>
-              </div>
-              <div>
-                <img src="/assets/academicfall211.jpg" alt="" />
-              </div>
-            </div>
-            <div className="card-hon">
-              <div
-                style={{
-                  display: "flex",
-                  justifyContent: "space-between",
-                  alignItems: "center",
-                  gap: "5px",
-                }}
-              >
-                <div className="circles">
-                  <div className="c"></div>
-                  <div className="c"></div>
-                  <div className="c"></div>
-                </div>
-                <i
-                  class="fa fa-code"
-                  style={{ color: "black" }}
-                  aria-hidden="true"
-                ></i>
-                <div className="search-bar">
-                  Academic Brilliance Spring 2022
+                <div>
+                  <img src={honor.imageSrc} alt={honor.title} />
                 </div>
               </div>
-              <div>
-                <img src="/assets/academicspring221.jpg" alt="" />
-              </div>
-            </div>
-            <div className="card-hon">
-              <div
-                style={{
-                  display: "flex",
-                  justifyContent: "space-between",
-                  alignItems: "center",
-                  gap: "5px",
-                }}
-              >
-                <div className="circles">
-                  <div className="c"></div>
-                  <div className="c"></div>
-                  <div className="c"></div>
-                </div>
-                <i
-                  class="fa fa-code"
-                  style={{ color: "black" }}
-                  aria-hidden="true"
-                ></i>
-                <div className="search-bar">Academic Brilliance Fall 2022</div>
-              </div>
-              <div>
-                <img src="/assets/academicfall221.jpg" alt="" />
-              </div>
-            </div>
-            <div className="card-hon">
-              <div
-                style={{
-                  display: "flex",
-                  justifyContent: "space-between",
-                  alignItems: "center",
-                  gap: "5px",
-                }}
-              >
-                <div className="circles">
-                  <div className="c"></div>
-                  <div className="c"></div>
-                  <div className="c"></div>
-                </div>
-                <i
-                  class="fa fa-code"
-                  style={{ color: "black" }}
-                  aria-hidden="true"
-                ></i>
-                <div className="search-bar">Dean's list Fall 2021</div>
-              </div>
-              <div>
-                <img src="/assets/fall21.jpg" alt="" />
-              </div>
-            </div>
-            <div className="card-hon">
-              <div
-                style={{
-                  display: "flex",
-                  justifyContent: "space-between",
-                  alignItems: "center",
-                  gap: "5px",
-                }}
-              >
-                <div className="circles">
-                  <div className="c"></div>
-                  <div className="c"></div>
-                  <div className="c"></div>
-                </div>
-                <i
-                  class="fa fa-code"
-                  style={{ color: "black" }}
-                  aria-hidden="true"
-                ></i>
-                <div className="search-bar">Dean list Spring 2022</div>
-              </div>
-              <div>
-                <img src="/assets/spring22.jpg" alt="" />
-              </div>
-            </div>
-            <div className="card-hon">
-              <div
-                style={{
-                  display: "flex",
-                  justifyContent: "space-between",
-                  alignItems: "center",
-                  gap: "5px",
-                }}
-              >
-                <div className="circles">
-                  <div className="c"></div>
-                  <div className="c"></div>
-                  <div className="c"></div>
-                </div>
-                <i
-                  class="fa fa-code"
-                  style={{ color: "black" }}
-                  aria-hidden="true"
-                ></i>
-                <div className="search-bar">Dean list Fall 2022</div>
-              </div>
-              <div>
-                <img src="/assets/fall22.jpg" alt="" />
-              </div>
-            </div>
+            ))}
           </div>
         </div>
       </div>
     </div>
   );
-}
+};
+
+export default Extra;

@@ -34,7 +34,7 @@ import { DiDart, DiDotnet } from "react-icons/di";
 import { GiCircuitry } from "react-icons/gi";
 import { TiVendorMicrosoft } from "react-icons/ti";
 
-export default function About() {
+const About = () => {
   const [index] = useState(0);
   const [x] = useState(0);
   const [name] = useState([
@@ -308,4 +308,6 @@ export default function About() {
       </div>
     </div>
   );
-}
+};
+
+export default About;

@@ -43,6 +43,7 @@ a {
 }
 
 .about-button {
+  color: #F6EEE1;
   background-color: #fd6037;
   margin: 20px 0px 20px 0px;
   padding: 5px 60px;
@@ -57,7 +58,7 @@ a {
 .image-summary {
   font-size: 18px;
   padding: 20px 30px 10px 15px;
-  color: white;
+  color: #F6EEE1;
 }
 
 .container {

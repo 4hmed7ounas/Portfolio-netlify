@@ -3,33 +3,6 @@ import { Link } from "react-router-dom";
 import "./Navbar.css";
 
 function Navbar(props) {
-  // const [scrollBackground, setScrollBackground] = useState("transparent");
-
-  // useEffect(() => {
-  //   const handleScroll = () => {
-  //     const scrollPosition = window.scrollY;
-  //     const screenWidth = window.innerWidth;
-
-  //     if (screenWidth >= 768) {
-  //       if (scrollPosition > 30) {
-  //         setScrollBackground("rgba(22, 25, 34, 0.8)");
-  //       } else {
-  //         setScrollBackground("transparent");
-  //       }
-  //     } else {
-  //       if (scrollPosition > 20) {
-  //         setScrollBackground("rgba(22, 25, 34, 0.8)");
-  //       } else {
-  //         setScrollBackground("transparent");
-  //       }
-  //     }
-  //   };
-  //   window.addEventListener("scroll", handleScroll);
-
-  //   return () => {
-  //     window.removeEventListener("scroll", handleScroll);
-  //   };
-  // }, []);
 
   return (
     <nav

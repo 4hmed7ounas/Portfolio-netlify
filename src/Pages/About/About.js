@@ -5,8 +5,30 @@ import "./work.css";
 import "./GitHub.css";
 import ContributionGraph from "./GitHubContribution.js";
 import { Link } from "react-router-dom";
-import { FaCss3, FaFigma, FaGithub, FaHtml5, FaJs, FaLinux, FaNodeJs, FaPython, FaReact, FaWordpress } from "react-icons/fa";
-import { SiAssemblyscript, SiAutocad, SiBootstrap, SiCisco, SiCplusplus, SiCsharp, SiFlutter, SiMongodb, SiMysql, SiTailwindcss } from "react-icons/si";
+import {
+  FaCss3,
+  FaFigma,
+  FaGithub,
+  FaHtml5,
+  FaJs,
+  FaLinux,
+  FaNodeJs,
+  FaPython,
+  FaReact,
+  FaWordpress,
+} from "react-icons/fa";
+import {
+  SiAssemblyscript,
+  SiAutocad,
+  SiBootstrap,
+  SiCisco,
+  SiCplusplus,
+  SiCsharp,
+  SiFlutter,
+  SiMongodb,
+  SiMysql,
+  SiTailwindcss,
+} from "react-icons/si";
 import { RiNextjsFill } from "react-icons/ri";
 import { DiDart, DiDotnet } from "react-icons/di";
 import { GiCircuitry } from "react-icons/gi";
@@ -24,6 +46,90 @@ export default function About() {
     "Circuit Designer",
   ]);
   const [currentTitle, setCurrentTitle] = useState("");
+  const skills = [
+    { component: <SiCplusplus size={50} color="#F6EEE1" />, name: "C++" },
+    { component: <FaPython size={50} color="#F6EEE1" />, name: "Python" },
+    { component: <DiDart size={50} color="#F6EEE1" />, name: "Dart" },
+    { component: <FaHtml5 size={50} color="#F6EEE1" />, name: "HTML5" },
+    { component: <FaCss3 size={50} color="#F6EEE1" />, name: "CSS3" },
+    { component: <FaJs size={50} color="#F6EEE1" />, name: "JavaScript" },
+    { component: <SiFlutter size={50} color="#F6EEE1" />, name: "Flutter" },
+    { component: <FaFigma size={50} color="#F6EEE1" />, name: "Figma" },
+    { component: <FaReact size={50} color="#F6EEE1" />, name: "React" },
+    { component: <RiNextjsFill size={50} color="#F6EEE1" />, name: "Next.js" },
+    {
+      component: <SiAssemblyscript size={50} color="#F6EEE1" />,
+      name: "AssemblyScript",
+    },
+    { component: <SiMongodb size={50} color="#F6EEE1" />, name: "MongoDB" },
+    { component: <FaNodeJs size={50} color="#F6EEE1" />, name: "Node.js" },
+    {
+      component: <SiTailwindcss size={50} color="#F6EEE1" />,
+      name: "TailwindCSS",
+    },
+    { component: <SiBootstrap size={50} color="#F6EEE1" />, name: "Bootstrap" },
+    { component: <FaGithub size={50} color="#F6EEE1" />, name: "GitHub" },
+    { component: <DiDotnet size={50} color="#F6EEE1" />, name: ".NET" },
+    { component: <SiCsharp size={50} color="#F6EEE1" />, name: "C#" },
+    { component: <SiMysql size={50} color="#F6EEE1" />, name: "MySQL" },
+    { component: <FaWordpress size={50} color="#F6EEE1" />, name: "WordPress" },
+    {
+      component: <GiCircuitry size={50} color="#F6EEE1" />,
+      name: "Circuit Design",
+    },
+    { component: <SiAutocad size={50} color="#F6EEE1" />, name: "AutoCAD" },
+    {
+      component: <TiVendorMicrosoft size={50} color="#F6EEE1" />,
+      name: "Microsoft",
+    },
+    { component: <FaLinux size={50} color="#F6EEE1" />, name: "Linux" },
+    { component: <SiCisco size={50} color="#F6EEE1" />, name: "Cisco" },
+  ];
+
+  const workExperience = [
+    {
+      title: "Trainee Mobile App Developer",
+      company: "Grootcore Systems",
+      duration: "Jun 2024 - Present",
+      image: "/assets/mobiletrainee.png",
+    },
+    {
+      title: "Internee Front-end Developer",
+      company: "EntraCloud",
+      duration: "Jun 2024 - Aug 2024",
+      image: "/assets/front-end.png",
+    },
+    {
+      title: "Internee Graphic Designer",
+      company: "EntraCloud",
+      duration: "Jun 2024 - Aug 2024",
+      image: "/assets/graphic-design.png",
+    },
+    {
+      title: "Digital Circuit Designer",
+      company: "Freelance | Self-Employed",
+      duration: "Jan 2022 - Present",
+      image: "/assets/dldfiverr.png",
+    },
+    {
+      title: "Web Developer & Designer",
+      company: "Freelance | Self-Employed",
+      duration: "Jan 2023 - Present",
+      image: "/assets/fiverr.png",
+    },
+    {
+      title: "Web Dev intern at CodeClause",
+      company: "Worked as a Web Development Intern",
+      duration: "Aug 2023 - Sept 2023",
+      image: "/assets/codeclause.png",
+    },
+    {
+      title: "Web Dev intern at CodSoft",
+      company: "Worked as a Web Development Intern",
+      duration: "Aug 2023 - Sept 2023",
+      image: "/assets/codsoft.jpg",
+    },
+  ];
 
   useEffect(() => {
     let intervalId;
@@ -122,7 +228,7 @@ export default function About() {
               <img
                 className="img-2"
                 style={{ width: "100%" }}
-                src={"/assest/Ahmed-11.png"}
+                src={"/assets/Ahmed-11.png"}
                 alt=""
               />
               <div className="image-summary">
@@ -149,81 +255,13 @@ export default function About() {
             </h1>
           </div>
           <div className="skill-container">
-            <li>
-            <SiCplusplus size={50} color="#F6EEE1"/>
-            </li>
-            <li>
-              <FaPython size={50} color="#F6EEE1"/>
-            </li>
-            <li>
-              <DiDart size={50} color="#F6EEE1"/>
-            </li>
-            <li>
-              <FaHtml5 size={50} color="#F6EEE1"/>
-            </li>
-            <li>
-              <FaCss3 size={50} color="#F6EEE1"/>
-            </li>
-            <li>
-            <FaJs size={50} color="#F6EEE1"/>
-            </li>
-            <li>
-            <SiFlutter size={50} color="#F6EEE1"/>
-            </li>
-            <li>
-            <FaFigma size={50} color="#F6EEE1"/>
-            </li>
-            <li>
-            <FaReact size={50} color="#F6EEE1"/>
-            </li>
-            <li>
-            <RiNextjsFill size={50} color="#F6EEE1"/>
-            </li>
-            <li>
-            <SiAssemblyscript size={50} color="#F6EEE1"/>
-            </li>
-            <li>
-            <SiMongodb size={50} color="#F6EEE1"/>
-            </li>
-            <li>
-            <FaNodeJs size={50} color="#F6EEE1"/>
-            </li>
-            <li>
-            <SiTailwindcss size={50} color="#F6EEE1"/>
-            </li>
-            <li>
-            <SiBootstrap size={50} color="#F6EEE1"/>
-            </li>
-            <li>
-            <FaGithub size={50} color="#F6EEE1"/>
-            </li>
-            <li>
-            <DiDotnet size={50} color="#F6EEE1"/>
-            </li>
-            <li>
-            <SiCsharp size={50} color="#F6EEE1"/>
-            </li>
-            <li>
-            <SiMysql size={50} color="#F6EEE1"/>
-            </li>
-            <li>
-            <FaWordpress size={50} color="#F6EEE1"/>
-            </li>
-            <li>
-            <GiCircuitry size={50} color="#F6EEE1"/>
-            </li>
-            <li>
-            <SiAutocad size={50} color="#F6EEE1"/>
-            </li>
-            <li>
-            <TiVendorMicrosoft size={50} color="#F6EEE1"/>
-            </li>
-            <li>
-            <FaLinux size={50} color="#F6EEE1"/>
-            </li>
-            <li>
-            <SiCisco size={50} color="#F6EEE1"/>
-            </li>
+            {skills.map((skill, index) => (
+              <li>
+                <div key={index} className="skill">
+                  {skill.component}
+                </div>
+              </li>
+            ))}
           </div>
         </div>
       </div>
@@ -238,111 +276,23 @@ export default function About() {
                 </h1>
               </div>
               <div>
-                <div className="single-sec">
-                  <div className="summary-details">
-                    <h1 className="summary-heading">
-                      <b>Trainee Mobile App Developer</b>
-                    </h1>
-                    <div className="summary-content">
-                      <span>Grootcore Systems</span>
-                      <br />
-                      <span>Jun 2024 - Present</span>
+                {workExperience.map((work, index) => (
+                  <div key={index} className="single-sec">
+                    <div className="summary-details">
+                      <h1 className="summary-heading">
+                        <b>{work.title}</b>
+                      </h1>
+                      <div className="summary-content">
+                        <span>{work.company}</span>
+                        <br />
+                        <span>{work.duration}</span>
+                      </div>
+                    </div>
+                    <div className="summary-img">
+                      <img src={work.image} alt={work.title} />
                     </div>
                   </div>
-                  <div className="summary-img">
-                    <img src="/assest/mobiletrainee.png" alt="" />
-                  </div>
-                </div>
-                <div className="single-sec">
-                  <div className="summary-details">
-                    <h1 className="summary-heading">
-                      <b>Internee Front-end Developer</b>
-                    </h1>
-                    <div className="summary-content">
-                      <span>EntraCloud</span>
-                      <br />
-                      <span>Jun 2024 - Aug 2024</span>
-                    </div>
-                  </div>
-                  <div className="summary-img">
-                    <img src="/assest/front-end.png" alt="" />
-                  </div>
-                </div>
-                <div className="single-sec">
-                  <div className="summary-details">
-                    <h1 className="summary-heading">
-                      <b>Internee Graphic Designer</b>
-                    </h1>
-                    <div className="summary-content">
-                      <span>EntraCloud</span>
-                      <br />
-                      <span>Jun 2024 - Aug 2024</span>
-                    </div>
-                  </div>
-                  <div className="summary-img">
-                    <img src="/assest/graphic-design.png" alt="" />
-                  </div>
-                </div>
-                <div className="single-sec">
-                  <div className="summary-details">
-                    <h1 className="summary-heading">
-                      <b>Digital Circuit Designer</b>
-                    </h1>
-                    <div className="summary-content">
-                      <span>Freelance | Self-Employed</span>
-                      <br />
-                      <span>Jan 2022 - Present</span>
-                    </div>
-                  </div>
-                  <div className="summary-img">
-                    <img src="/assest/dldfiverr.png" alt="" />
-                  </div>
-                </div>
-                <div className="single-sec">
-                  <div className="summary-details">
-                    <h1 className="summary-heading">
-                      <b>Web Developer & Designer</b>
-                    </h1>
-                    <div className="summary-content">
-                      <span>Freelance | Self-Employed</span>
-                      <br />
-                      <span>Jan 2023 - Present</span>
-                    </div>
-                  </div>
-                  <div className="summary-img">
-                    <img src="/assest/fiverr.png" alt="" />
-                  </div>
-                </div>
-                <div className="single-sec">
-                  <div className="summary-details">
-                    <h1 className="summary-heading">
-                      <b>Web Dev intern at CodeClause</b>
-                    </h1>
-                    <div className="summary-content">
-                      <span>Worked as a Web Development Intern</span>
-                      <br />
-                      <span>Aug 2023 - Sept 2023</span>
-                    </div>
-                  </div>
-                  <div className="summary-img">
-                    <img src="/assest/codeclause.png" alt="" />
-                  </div>
-                </div>
-                <div className="single-sec">
-                  <div className="summary-details">
-                    <h1 className="summary-heading">
-                      <b>Web Dev intern at CodSoft</b>
-                    </h1>
-                    <div className="summary-content">
-                      <span>Worked as a Web Development Intern</span>
-                      <br />
-                      <span>Aug 2023 - Sept 2023</span>
-                    </div>
-                  </div>
-                  <div className="summary-img">
-                    <img src="/assest/codsoft.jpg" alt="" />
-                  </div>
-                </div>
+                ))}
               </div>
             </div>
           </div>

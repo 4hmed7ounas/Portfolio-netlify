@@ -21,7 +21,7 @@ export default function Projects() {
           <div class="card-container card-con-1 side-1">
             <div class="card">
               <div class="front-content">
-                <img src="/assest/chatbot.PNG" alt="" />
+                <img src="/assets/chatbot.PNG" alt="" />
               </div>
               <div class="content">
                 <p class="heading">User Learning AI Chatbot</p>
@@ -45,7 +45,7 @@ export default function Projects() {
             <div class="card-container card-con-2">
               <div class="card">
                 <div class="front-content">
-                  <img src="/assest/newsapp.PNG" alt="" />
+                  <img src="/assets/newsapp.PNG" alt="" />
                 </div>
                 <div class="content">
                   <p class="heading">News Application - API</p>
@@ -60,7 +60,7 @@ export default function Projects() {
             <div class="card-container card-con-4">
               <div class="card">
                 <div class="front-content">
-                  <img src="/assest/pharmacy.PNG" alt="" />
+                  <img src="/assets/pharmacy.PNG" alt="" />
                 </div>
                 <div class="content">
                   <p class="heading">Pharmacy Management System</p>
@@ -80,7 +80,7 @@ export default function Projects() {
             <div class="card-container card-con-2">
               <div class="card">
                 <div class="front-content">
-                  <img src="/assest/amazonclone.PNG" alt="" />
+                  <img src="/assets/amazonclone.PNG" alt="" />
                 </div>
                 <div class="content">
                   <p class="heading">Amazon Clone Site</p>
@@ -95,7 +95,7 @@ export default function Projects() {
             <div class="card-container card-con-4">
               <div class="card">
                 <div class="front-content">
-                  <img src="/assest/topunisite.PNG" alt="" />
+                  <img src="/assets/topunisite.PNG" alt="" />
                 </div>
                 <div class="content">
                   <p class="heading">Top University Clone Site</p>
@@ -111,7 +111,7 @@ export default function Projects() {
           <div class="card-container card-con-1">
             <div class="card">
               <div class="front-content">
-                <img src="/assest/hblclonesite.png" alt="" />
+                <img src="/assets/hblclonesite.png" alt="" />
               </div>
               <div class="content">
                 <p class="heading">HBL Clone Site</p>
@@ -128,7 +128,7 @@ export default function Projects() {
           <div class="card-container card-con-1 side-1">
             <div class="card">
               <div class="front-content">
-                <img src="/assest/calculator.PNG" alt="" />
+                <img src="/assets/calculator.PNG" alt="" />
               </div>
               <div class="content">
                 <p class="heading">Calculator App</p>
@@ -144,7 +144,7 @@ export default function Projects() {
             <div class="card-container card-con-2">
               <div class="card">
                 <div class="front-content">
-                  <img src="/assest/favpanda.PNG" alt="" />
+                  <img src="/assets/favpanda.PNG" alt="" />
                 </div>
                 <div class="content">
                   <p class="heading">Fav Panda - Food Delivering Application</p>
@@ -160,7 +160,7 @@ export default function Projects() {
             <div class="card-container card-con-4">
               <div class="card">
                 <div class="front-content">
-                  <img src="/assest/music.jpg" alt="" />
+                  <img src="/assets/music.jpg" alt="" />
                 </div>
                 <div class="content">
                   <p class="heading">Music & Movie Library</p>
@@ -180,7 +180,7 @@ export default function Projects() {
             <div class="card-container card-con-2">
               <div class="card">
                 <div class="front-content">
-                  <img src="/assest/lightseeking.jpg" alt="" />
+                  <img src="/assets/lightseeking.jpg" alt="" />
                 </div>
                 <div class="content">
                   <p class="heading">Light Seeking Robot</p>
@@ -195,7 +195,7 @@ export default function Projects() {
             <div class="card-container card-con-4">
               <div class="card">
                 <div class="front-content">
-                  <img src="/assest/linerobot.jpg" alt="" />
+                  <img src="/assets/linerobot.jpg" alt="" />
                 </div>
                 <div class="content">
                   <p class="heading">Line Following & Hurdle Detecting Robot</p>
@@ -210,7 +210,7 @@ export default function Projects() {
           <div class="card-container card-con-1">
             <div class="card">
               <div class="front-content">
-                <img src="/assest/MCU.PNG" alt="" />
+                <img src="/assets/MCU.PNG" alt="" />
               </div>
               <div class="content">
                 <p class="heading">6-bit Mini-Computational Unit</p>
@@ -227,7 +227,7 @@ export default function Projects() {
           <div class="card-container card-con-1 side-1">
             <div class="card">
               <div class="front-content">
-                <img src="/assest/beautySaloon.png" alt="" />
+                <img src="/assets/beautySaloon.png" alt="" />
               </div>
               <div class="content">
                 <p class="heading">6-bit Beauty Saloon</p>
@@ -245,7 +245,7 @@ export default function Projects() {
             <div class="card-container card-con-2">
               <div class="card">
                 <div class="front-content">
-                  <img src="/assest/2bitcomp.jpg" alt="" />
+                  <img src="/assets/2bitcomp.jpg" alt="" />
                 </div>
                 <div class="content">
                   <p class="heading">2-bit binary Comparator</p>
@@ -268,7 +268,7 @@ export default function Projects() {
             <div class="card-container card-con-4">
               <div class="card">
                 <div class="front-content">
-                  <img src="/assest/universaljoint.jpeg" alt="" />
+                  <img src="/assets/universaljoint.jpeg" alt="" />
                 </div>
                 <div class="content">
                   <p class="heading">3D Universal Joint</p>
@@ -286,7 +286,7 @@ export default function Projects() {
             <div class="card-container card-con-2">
               <div class="card">
                 <div class="front-content">
-                  <img src="/assest/wordInfo.PNG" alt="" />
+                  <img src="/assets/wordInfo.PNG" alt="" />
                 </div>
                 <div class="content">
                   <p class="heading">
@@ -311,7 +311,7 @@ export default function Projects() {
             <div class="card-container card-con-4">
               <div class="card">
                 <div class="front-content">
-                  <img src="/assest/bee maze.PNG" alt="" />
+                  <img src="/assets/bee maze.PNG" alt="" />
                 </div>
                 <div class="content">
                   <p class="heading">Bee in the Maze</p>
@@ -328,7 +328,7 @@ export default function Projects() {
           <div class="card-container card-con-1">
             <div class="card">
               <div class="front-content">
-                <img src="/assest/casino.jpg" alt="" />
+                <img src="/assets/casino.jpg" alt="" />
               </div>
               <div class="content">
                 <p class="heading">Casino Royal - Number Guessing Game</p>

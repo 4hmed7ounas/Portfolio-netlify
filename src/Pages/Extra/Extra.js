@@ -42,7 +42,7 @@ export default function Extra() {
                   <div className="search-bar">Participation in Web Devathon</div>
                 </div>
                 <div>
-                  <img src="/assest/devathon24.jpg" alt="" />
+                  <img src="/assets/devathon24.jpg" alt="" />
                 </div>
               </div>
               <div className="card-cert">
@@ -67,7 +67,7 @@ export default function Extra() {
                   <div className="search-bar">Web Dev Virtual Internship</div>
                 </div>
                 <div>
-                  <img src="/assest/codsoft.jpg" alt="" />
+                  <img src="/assets/codsoft.jpg" alt="" />
                 </div>
               </div>
               <div className="card-cert">
@@ -94,7 +94,7 @@ export default function Extra() {
                   </div>
                 </div>
                 <div>
-                  <img src="/assest/NasCon'24.jpg" alt="" />
+                  <img src="/assets/NasCon'24.jpg" alt="" />
                 </div>
               </div>
               <div className="card-cert">
@@ -119,7 +119,7 @@ export default function Extra() {
                   <div className="search-bar">Basic of HTML & CSS</div>
                 </div>
                 <div>
-                  <img src="/assest/softec.jpg" alt="" />
+                  <img src="/assets/softec.jpg" alt="" />
                 </div>
               </div>
               <div className="card-cert">
@@ -144,7 +144,7 @@ export default function Extra() {
                   <div className="search-bar">Build a website with WordPress</div>
                 </div>
                 <div>
-                  <img src="/assest/wordpresscert.png" alt="" />
+                  <img src="/assets/wordpresscert.png" alt="" />
                 </div>
               </div>
               <div className="card-cert">
@@ -169,7 +169,7 @@ export default function Extra() {
                   <div className="search-bar">Basic of HTML & CSS</div>
                 </div>
                 <div>
-                  <img src="/assest/htmlcss.jpg" alt="" />
+                  <img src="/assets/htmlcss.jpg" alt="" />
                 </div>
               </div>
               <div className="card-cert">
@@ -196,7 +196,7 @@ export default function Extra() {
                   </div>
                 </div>
                 <div>
-                  <img src="/assest/js.jpg" alt="" />
+                  <img src="/assets/js.jpg" alt="" />
                 </div>
               </div>
             </div>
@@ -233,7 +233,7 @@ export default function Extra() {
                 <div className="search-bar">Academic Brilliance Fall 2021</div>
               </div>
               <div>
-                <img src="/assest/academicfall211.jpg" alt="" />
+                <img src="/assets/academicfall211.jpg" alt="" />
               </div>
             </div>
             <div className="card-hon">
@@ -260,7 +260,7 @@ export default function Extra() {
                 </div>
               </div>
               <div>
-                <img src="/assest/academicspring221.jpg" alt="" />
+                <img src="/assets/academicspring221.jpg" alt="" />
               </div>
             </div>
             <div className="card-hon">
@@ -285,7 +285,7 @@ export default function Extra() {
                 <div className="search-bar">Academic Brilliance Fall 2022</div>
               </div>
               <div>
-                <img src="/assest/academicfall221.jpg" alt="" />
+                <img src="/assets/academicfall221.jpg" alt="" />
               </div>
             </div>
             <div className="card-hon">
@@ -310,7 +310,7 @@ export default function Extra() {
                 <div className="search-bar">Dean's list Fall 2021</div>
               </div>
               <div>
-                <img src="/assest/fall21.jpg" alt="" />
+                <img src="/assets/fall21.jpg" alt="" />
               </div>
             </div>
             <div className="card-hon">
@@ -335,7 +335,7 @@ export default function Extra() {
                 <div className="search-bar">Dean list Spring 2022</div>
               </div>
               <div>
-                <img src="/assest/spring22.jpg" alt="" />
+                <img src="/assets/spring22.jpg" alt="" />
               </div>
             </div>
             <div className="card-hon">
@@ -360,7 +360,7 @@ export default function Extra() {
                 <div className="search-bar">Dean list Fall 2022</div>
               </div>
               <div>
-                <img src="/assest/fall22.jpg" alt="" />
+                <img src="/assets/fall22.jpg" alt="" />
               </div>
             </div>
           </div>

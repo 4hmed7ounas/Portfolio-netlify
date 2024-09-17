@@ -7,30 +7,6 @@ export default function Contact() {
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
 
-  // Uncomment and adjust the submit handler if using custom submission logic
-  // const handleSubmit = async (e) => {
-  //   e.preventDefault();
-  //   const response = await fetch("/api/submitForm", {
-  //     method: "POST",
-  //     headers: {
-  //       "Content-Type": "application/json",
-  //     },
-  //     body: JSON.stringify({ name, email, message }),
-  //   });
-
-  //   if (response.ok) {
-  //     alert("Message submitted successfully!");
-  //     setName("");
-  //     setEmail("");
-  //     setMessage("");
-  //   } else {
-  //     alert("Issues on backend. Please try again later.");
-  //     setName("");
-  //     setEmail("");
-  //     setMessage("");
-  //   }
-  // };
-
   return (
     <div
       id="Contact"
@@ -53,7 +29,6 @@ export default function Contact() {
           data-netlify="true"
           className="d-flex"
           style={{ flexDirection: "column" }}
-          // onSubmit={handleSubmit}
         >
           <input type="hidden" name="form-name" value="contact" />
           <label style={{ color: "#F6EEE1" }} htmlFor="name">

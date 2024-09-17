@@ -6,7 +6,7 @@
   margin: 0;
   height: 100%;
   background-color: #16172e8f;
-  background-image: url("/public/assest/Main.JPG");
+  background-image: url("/public/assets/Main.JPG");
   background-size: cover;
   background-blend-mode: darken;
 }

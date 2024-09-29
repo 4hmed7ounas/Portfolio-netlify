@@ -88,6 +88,12 @@ const About = () => {
 
   const workExperience = [
     {
+      title: "Trainee Web Developer",
+      company: "Grootcore Systems",
+      duration: "Sept 2024 - Present",
+      image: "/assets/traineeweb.png",
+    },
+    {
       title: "Trainee Mobile App Developer",
       company: "Grootcore Systems",
       duration: "Jun 2024 - Present",

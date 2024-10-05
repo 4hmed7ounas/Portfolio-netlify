@@ -24,12 +24,16 @@ import {
   SiCisco,
   SiCplusplus,
   SiCsharp,
+  SiFirebase,
   SiFlutter,
+  SiKalilinux,
   SiMongodb,
   SiMysql,
+  SiRos,
   SiTailwindcss,
+  SiThreedotjs,
 } from "react-icons/si";
-import { RiNextjsFill } from "react-icons/ri";
+import { RiAiGenerate, RiNextjsFill } from "react-icons/ri";
 import { DiDart, DiDotnet } from "react-icons/di";
 import { GiCircuitry } from "react-icons/gi";
 import { TiVendorMicrosoft } from "react-icons/ti";
@@ -57,11 +61,13 @@ const About = () => {
     { component: <FaFigma size={50} color="#F6EEE1" />, name: "Figma" },
     { component: <FaReact size={50} color="#F6EEE1" />, name: "React" },
     { component: <RiNextjsFill size={50} color="#F6EEE1" />, name: "Next.js" },
+    { component: <SiThreedotjs size={50} color="#F6EEE1" />, name: "ThreeJS" },
     {
       component: <SiAssemblyscript size={50} color="#F6EEE1" />,
       name: "AssemblyScript",
     },
     { component: <SiMongodb size={50} color="#F6EEE1" />, name: "MongoDB" },
+    { component: <SiFirebase size={50} color="#F6EEE1" />, name: "Firebase" },
     { component: <FaNodeJs size={50} color="#F6EEE1" />, name: "Node.js" },
     {
       component: <SiTailwindcss size={50} color="#F6EEE1" />,
@@ -77,13 +83,22 @@ const About = () => {
       component: <GiCircuitry size={50} color="#F6EEE1" />,
       name: "Circuit Design",
     },
+    {
+      component: <SiRos size={50} color="#F6EEE1" />,
+      name: "ROS-RobotOperatingSystem",
+    },
     { component: <SiAutocad size={50} color="#F6EEE1" />, name: "AutoCAD" },
     {
       component: <TiVendorMicrosoft size={50} color="#F6EEE1" />,
       name: "Microsoft",
     },
     { component: <FaLinux size={50} color="#F6EEE1" />, name: "Linux" },
+    { component: <SiKalilinux size={50} color="#F6EEE1" />, name: "KaliLinux" },
     { component: <SiCisco size={50} color="#F6EEE1" />, name: "Cisco" },
+    {
+      component: <RiAiGenerate size={50} color="#F6EEE1" />,
+      name: "GenerativeAI",
+    },
   ];
 
   const workExperience = [
@@ -197,26 +212,27 @@ const About = () => {
                     FAST NUCES
                   </a>
                   , with a strong passion for web and mobile app development &
-                  designing. With hands-on experience in HTML, CSS, JavaScript,
-                  Flutter, Dart, C#, ASP.NET, MySQL, ReactJS, and NodeJS. I
-                  craft creative web applications. From dynamic front-end
-                  interfaces to powerful back-end systems, I bring ideas to
-                  life. Additionally, I've dived into Python/C/C++ programming,
-                  using these languages to build efficient and high-performance
-                  codes. Beyond my web development skills, I have a keen
-                  interest in exploring diverse areas of technology. I find joy
-                  in delving into the worlds of robotics and circuit analysis,
-                  and I've even taken on freelance projects in electrical
-                  circuit and digital logic design on{" "}
+                  designing. With hands-on experience in NextJs, ReactJS,
+                  ThreeJS, NodeJS, Flutter, Dart, C#, ASP.NET, MySQL, MongoDB,
+                  Github and Firebase. I craft creative web applications. From
+                  dynamic front-end interfaces to powerful back-end systems, I
+                  bring ideas to life. Additionally, I've dived into
+                  Python/C/C++ programming, using these languages to build
+                  efficient and high-performance codes. Beyond my web
+                  development skills, I have a keen interest in exploring
+                  diverse areas of technology. I find joy in delving into the
+                  worlds of robotics and circuit analysis, and I've even taken
+                  on freelance projects in web development, electrical circuit
+                  and digital logic design on{" "}
                   <a
                     target="_blank"
                     rel="noopener noreferrer"
-                    href="https://www.fiverr.com/s/jjv68bG"
+                    href="https://www.upwork.com/freelancers/~01d3d4b667f04e2f64?mp_source=share"
                   >
-                    FIVERR
+                    UpWork
                   </a>
-                  . Let's shape the future of the web, robotics, and the digital
-                  world together.
+                  . Let's shape the future of the web, mobile app, robotics, and
+                  the digital world together.
                 </span>
               </div>
               <div className="d-flex">

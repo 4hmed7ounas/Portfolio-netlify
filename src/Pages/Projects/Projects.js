@@ -22,20 +22,23 @@ const Projects = () => {
             <div class="card-container card-con-1 side-1">
               <div class="card">
                 <div class="front-content">
-                  <img src="/assets/chatbot.PNG" alt="" />
+                  <img
+                    style={{ objectFit: "fill" }}
+                    src="/assets/chatbot.PNG"
+                    alt=""
+                  />
                 </div>
                 <div class="content">
-                  <p class="heading">User Learning AI Chatbot</p>
+                  <p class="heading">GiGo. Chat - AI Chatbot</p>
                   <p>
-                    A python-based AI-Chatbot that learns from user
-                    interactions. Utilized fuzzy string matching to find answers
-                    from a dataset of questions. Allows users to teach the bot
-                    new responses, facilitating continuous learning and
-                    knowledge expansion.
+                    AN AI-Chatbot, developed using Next.js and integrated with
+                    the powerful Gemini API. Users can easily train the chatbot
+                    on their own datasets, allowing it to cater specifically to
+                    the unique needs of individual websites.
                   </p>
                   <a
                     target="_blank"
-                    href="https://www.linkedin.com/posts/ahmed-younas_ai-chatbot-python-activity-7201280689973923842-ILY6?utm_source=share&utm_medium=member_desktop"
+                    href="https://gi-go.vercel.app/"
                     rel="noreferrer"
                   >
                     Learn More

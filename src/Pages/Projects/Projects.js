@@ -41,7 +41,7 @@ const Projects = () => {
                     href="https://gi-go.vercel.app/"
                     rel="noreferrer"
                   >
-                    Learn More
+                    Visit Page
                   </a>
                 </div>
               </div>
@@ -107,9 +107,15 @@ const Projects = () => {
                     <p class="heading">Top University Clone Site</p>
                     <p>
                       Developed a fully responsive frontend clone of Top
-                      University using simple nextjs, tailwind css and js with
-                      all animation and gesture.
+                      University using simple nextjs, tailwind css and js.
                     </p>
+                    <a
+                    target="_blank"
+                    href="https://4hmed7ounas.github.io/TopUni/"
+                    rel="noreferrer"
+                  >
+                    Visit Page
+                  </a>
                   </div>
                 </div>
               </div>
@@ -126,6 +132,13 @@ const Projects = () => {
                     simple reactjs, tailwind css and js with all animation and
                     gesture (Dark Mode).
                   </p>
+                  <a
+                    target="_blank"
+                    href="https://4hmed7ounas.github.io/HBLClone/"
+                    rel="noreferrer"
+                  >
+                    Visit Page
+                  </a>
                 </div>
               </div>
             </div>

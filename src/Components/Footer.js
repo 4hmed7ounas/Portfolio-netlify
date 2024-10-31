@@ -1,41 +1,49 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { FaGithub, FaLinkedin, FaGoogle, FaInstagram, FaFacebook, FaYoutube } from "react-icons/fa";
 import "./Footer.css";
+import { FaUpwork } from "react-icons/fa6";
 
 const Footer = () => {
   const socialLinks = [
     {
       href: "https://github.com/4hmed7ounas",
-      iconClass: "fa fa-github",
+      icon: <FaGithub />,
       ariaLabel: "GitHub",
       target: "_blank",
     },
     {
+      href: "https://www.upwork.com/freelancers/~01d3d4b667f04e2f64?mp_source=share",
+      icon: <FaUpwork />,
+      ariaLabel: "Upwork",
+      target: "_blank",
+    },
+    {
       href: "https://www.linkedin.com/in/ahmed-younas-360b481a5",
-      iconClass: "fa fa-linkedin",
+      icon: <FaLinkedin />,
       ariaLabel: "LinkedIn",
       target: "_blank",
     },
     {
       href: "mailto:ayds13579@gmail.com",
-      iconClass: "fa fa-google",
+      icon: <FaGoogle />,
       ariaLabel: "Google",
     },
     {
-      href: "https://www.instagram.com/_u/4hmed7ounas/?utm_source=ig_embed&ig_rid=5062be3e-b373-4031-abdc-90b9fcd93874&ig_mid=DBE56578-126B-47C8-8FA5-0DA964B4C3FA",
-      iconClass: "fa fa-instagram",
+      href: "https://www.instagram.com/_u/4hmed7ounas/",
+      icon: <FaInstagram />,
       ariaLabel: "Instagram",
       target: "_blank",
     },
     {
       href: "https://www.facebook.com/4hmed7ounass/",
-      iconClass: "fa fa-facebook",
+      icon: <FaFacebook />,
       ariaLabel: "Facebook",
       target: "_blank",
     },
     {
       href: "https://www.youtube.com/channel/UCFYpnx42kj-hp9Pn7fdg_6w",
-      iconClass: "fa fa-youtube",
+      icon: <FaYoutube />,
       ariaLabel: "YouTube",
       target: "_blank",
     },
@@ -67,12 +75,9 @@ const Footer = () => {
               className="footer-icons"
               target={link.target}
               to={link.href}
+              aria-label={link.ariaLabel}
             >
-              <i
-                className={link.iconClass}
-                aria-hidden="true"
-                aria-label={link.ariaLabel}
-              ></i>
+              {link.icon}
             </Link>
           ))}
         </div>

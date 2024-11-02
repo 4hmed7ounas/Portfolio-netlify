@@ -4,6 +4,11 @@ import "./Extra.css";
 const Extra = () => {
   const certificates = [
     {
+      title: "IEEE Student Membership",
+      imageSrc: "/assets/IEEEMembership.png",
+      iconClass: "fa fa-code",
+    },
+    {
       title: "Participation in Web Devathon",
       imageSrc: "/assets/devathon24.jpg",
       iconClass: "fa fa-code",

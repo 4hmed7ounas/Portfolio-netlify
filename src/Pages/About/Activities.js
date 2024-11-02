@@ -3,6 +3,7 @@ import "./Activities.css";
 
 const Activities = () => {
   const iframeData = [
+    "https://www.linkedin.com/embed/feed/update/urn:li:share:7258298707652083712",
     "https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7256573179056312320",
     "https://www.linkedin.com/embed/feed/update/urn:li:share:7249187797520011265",
     "https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7247123887442825218",

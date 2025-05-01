@@ -7,6 +7,107 @@ body {
   font-family: "Lato", sans-serif;
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
+  position: relative;
+}
+
+/* App structure */
+.app-wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  z-index: 1;
+}
+
+.main-content {
+  flex: 1 0 auto;
+  position: relative;
+  z-index: 2;
+}
+
+/* Dynamic Background */
+body::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -2;
+  background: radial-gradient(ellipse at bottom, #1B2735 0%, #12141f 100%);
+}
+
+/* Star animation background */
+.stars {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  overflow: hidden;
+}
+
+.star {
+  position: absolute;
+  background-color: #fdb51b;
+  border-radius: 50%;
+  opacity: 0;
+  animation: twinkle var(--duration) infinite ease-in-out;
+  animation-delay: var(--delay);
+}
+
+@keyframes twinkle {
+  0% {
+    opacity: 0;
+    transform: translateY(0);
+  }
+  10% {
+    opacity: var(--opacity);
+  }
+  90% {
+    opacity: var(--opacity);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(var(--distance));
+  }
+}
+
+.glow {
+  position: fixed;
+  width: 50%;
+  height: 50%;
+  border-radius: 50%;
+  background: radial-gradient(ellipse at center, rgba(253, 181, 27, 0.1) 0%, rgba(18, 20, 31, 0) 70%);
+  filter: blur(20px);
+  z-index: -1;
+  animation: glow-move 25s infinite ease-in-out alternate;
+  opacity: 0.5;
+}
+
+.glow:nth-child(1) {
+  top: -25%;
+  left: -15%;
+}
+
+.glow:nth-child(2) {
+  bottom: -25%;
+  right: -15%;
+  animation-delay: 5s;
+}
+
+@keyframes glow-move {
+  0% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(5%, 10%);
+  }
+  100% {
+    transform: translate(-5%, -5%);
+  }
 }
 
 html{
@@ -26,7 +127,12 @@ html{
 a {
     color: #ffffff;
     text-decoration: none;
-  }
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #fdb51b;
+}
   
 .col-1 {
   width: 8.33%;
@@ -81,11 +187,25 @@ a {
   font-size: 50px;
   text-align: center;
   font-family: "Protest Strike", sans-serif;
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.heading::after {
+  content: '';
+  position: absolute;
+  width: 60px;
+  height: 3px;
+  background: #fdb51b;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 3px;
 }
 
 @media only screen and (max-width: 460px) {
   .heading {
-    color: #010510;
+    color: #fdb51b;
     font-size: 33px;
     text-align: center;
     font-family: "Protest Strike", sans-serif;
@@ -94,11 +214,54 @@ a {
 
 @media only screen and (min-width: 460px) and (max-width: 920px) {
   .heading {
-    font-size: 50px;
+    font-size: 42px;
   }
 }
+
 hr{
   margin: 0;
   padding: 0;
   color: #F6EEE1;
+  opacity: 0.3;
+}
+
+/* Glass effect for elements */
+.glass-effect {
+  background: rgba(22, 25, 34, 0.6);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  transition: all 0.3s ease;
+}
+
+.glass-effect:hover {
+  box-shadow: 0 12px 40px 0 rgba(0, 0, 0, 0.5);
+  transform: translateY(-5px);
+}
+
+/* Animation classes */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-in {
+  animation: fadeIn 0.8s ease forwards;
+}
+
+.fade-in-up {
+  animation: fadeInUp 0.8s ease forwards;
 }

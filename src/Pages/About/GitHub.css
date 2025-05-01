@@ -1,6 +1,6 @@
 .github {
   text-align: center;
-  background-color: #0a0c10;
+  /* background-color: #0a0c10; */
   padding: 0px clamp(20px, 5vw, 60px);
 }
 

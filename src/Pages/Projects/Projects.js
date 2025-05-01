@@ -9,7 +9,7 @@ const Projects = () => {
           <div
             className="d-flex"
             style={{
-              backgroundColor: "#161922",
+              // backgroundColor: "#161922",
               color: "#fdb51b",
               padding: "70px 0px 10px 0px",
             }}

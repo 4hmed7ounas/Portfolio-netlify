@@ -11,6 +11,7 @@ import Contact from "./Pages/Contacts/Contact";
 import Extra from "./Pages/Extra/Extra";
 import Resume from "./Pages/Resume/Resume";
 import Activities from "./Pages/About/Activities";
+import DynamicBackground from "./Components/DynamicBackground";
 
 function ScrollToTop() {
   const { pathname } = useLocation();
@@ -27,18 +28,21 @@ function App() {
     <>
       <Router>
         <ScrollToTop />
-        <div>
+        <div className="app-wrapper">
+          <DynamicBackground />
           <Navbar title="𝔄𝔥𝔪𝔢𝔡 𝔜𝔬𝔲𝔫𝔞𝔰" />
-          <Routes>
-            <Route path="/" element={<Portfolio />} />
-            <Route path="Home" element={<Portfolio />} />
-            <Route path="About" element={<About />} />
-            <Route path="Projects" element={<Projects />} />
-            <Route path="Resume" element={<Resume />} />
-            <Route path="Activities" element={<Activities />} />
-            <Route path="Extra" element={<Extra />} />
-            <Route path="Contact" element={<Contact />} />
-          </Routes>
+          <main className="main-content">
+            <Routes>
+              <Route path="/" element={<Portfolio />} />
+              <Route path="Home" element={<Portfolio />} />
+              <Route path="About" element={<About />} />
+              <Route path="Projects" element={<Projects />} />
+              <Route path="Resume" element={<Resume />} />
+              <Route path="Activities" element={<Activities />} />
+              <Route path="Extra" element={<Extra />} />
+              <Route path="Contact" element={<Contact />} />
+            </Routes>
+          </main>
           <hr />
           <Footer />
         </div>
